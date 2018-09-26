@@ -11,10 +11,7 @@ public class MatrixHandlerController {
         this.view= view;
     }
 
-    public  void setMatrixSize(int matrixSize)
-    {
-        model.setSizematrix(matrixSize);
-    }
+
 
     public  void  setMatric (float[][] matrix){
         model.setMatrix(matrix);

@@ -7,7 +7,8 @@ public class View {
         {
             for (int j = 0;j<matrixSize;j++)
             {
-                System.out.print(matrix[i][j]+" ");
+                String formattedDouble = String.format("%.2f", matrix[i][j]);
+                System.out.print(formattedDouble+"  ");
             }
             System.out.print("\n");
         }
