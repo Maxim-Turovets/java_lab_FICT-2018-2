@@ -13,6 +13,7 @@ public class MatrixHandlerController {
 
 
 
+
     public  void  setMatric (float[][] matrix){
         model.setMatrix(matrix);
     }
