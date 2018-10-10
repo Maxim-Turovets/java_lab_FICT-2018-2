@@ -10,8 +10,7 @@ public class MVCMain {
 
     public static void main(String[] args) {
 
-
-    String s = "23 efgrth 2 dgdf 10";
+        String s = "23 efgrth 2 dgdf 10/15.99";
    WordProcessing model = new WordProcessing();
    model.setText(s);
    View view = new View();
