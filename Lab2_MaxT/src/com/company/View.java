@@ -1,17 +1,10 @@
 package com.company;
 
 public class View {
-    public  void printMatrix(float [][]matrix, int matrixSize)
+    public  void printText(String  str , double sum)
     {
-        for (int i=0;i<matrixSize;i++)
-        {
-            for (int j = 0;j<matrixSize;j++)
-            {
-                String formattedDouble = String.format("%.2f", matrix[i][j]);
-                System.out.print(formattedDouble+"  ");
-            }
-            System.out.print("\n");
-        }
+    System.out.println("Text : "+str);
+    System.out.println("The sum of the numbers in the given text = " + sum);
     }
 
 }
