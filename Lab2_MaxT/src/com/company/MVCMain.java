@@ -9,13 +9,23 @@ public class MVCMain {
 
     public static void main(String[] args) {
 
-        String s = "23 efgrth 2 dgdf 10/15.99.22";
-   WordProcessing model = new WordProcessing();
-   model.setText(s);
-   View view = new View();
-   WordProcessingController controller= new WordProcessingController(model,view);
+        String s ="  1234 ergerth 567";
+        try {
+            System.out.println("Enter text:");
+            Scanner in = new Scanner(System.in);
+            s = in.nextLine();
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+        }
 
-   controller.updateView();
+        WordProcessing model = new WordProcessing();
+        model.setText(s);
+        View view = new View();
+        WordProcessingController controller= new WordProcessingController(model,view);
+
+        controller.updateView();
 
 
 

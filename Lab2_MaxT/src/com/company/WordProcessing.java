@@ -2,18 +2,18 @@ package com.company;
 
 public class WordProcessing {
     private String text;
-    private double sum;
+    private int sum;
 
     public String getText() {
         return text;
     }
 
-    public double getSum() {
+    public int getSum() {
         wordProcess(this.text);
         return sum;
     }
 
-    public void setSum(double sum) {
+    public void setSum(int sum) {
         this.sum = sum;
     }
 
@@ -26,14 +26,14 @@ public class WordProcessing {
 
         StringBuilder sb = new StringBuilder();
         int i = 0;
-        double sum =0;
+        int sum =0;
         // посимвольный перебор текста
         try {
             while (i < localstr.length()) {
                 // проверка на принадлежность к цифрам
                 if (Character.isDigit(localstr.charAt(i))) {
 
-                    while (Character.isDigit(localstr.charAt(i)) || localstr.charAt(i) == '.') {
+                   /* while (Character.isDigit(localstr.charAt(i)) || localstr.charAt(i) == '.') {
 
                         sb.append(localstr.charAt(i));
                         i++;
@@ -41,13 +41,16 @@ public class WordProcessing {
                         if (i == localstr.length())
                             break;
                     } // выходим из while, имея группу цифр в объекте sb
-
-                    double k = Double.parseDouble(sb.toString()); // парсинг sb в число
+*/
+                    sb.append(localstr.charAt(i));
+                    int k = Integer.parseInt(sb.toString()); // парсинг sb в число
                     sum += k; // подсчёт
+                 //   System.out.println(sum);
+                    i++;
 
                     sb.delete(0, sb.length());
-                } else
-                    // если текущий символ - это не_цифра, просто переходим к следующему
+                }
+                else
                     i++;
             }
         }
