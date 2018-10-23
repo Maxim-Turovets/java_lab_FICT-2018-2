@@ -10,6 +10,28 @@ public class Train {
     private  int NumberPlz;
     private  int NumberSv;
 
+    Train(String Destination,int NumberTrain,double SendTime,int NumberCommon,int NumberKoupe,int NumberPlz, int NumberSv)
+    {
+        this.Destination=Destination;
+        this.NumberCommon=NumberCommon;
+        this.SendTime=SendTime;
+        this.NumberTrain=NumberTrain;
+        this.NumberKoupe=NumberKoupe;
+        this.NumberPlz=NumberPlz;
+        this.NumberSv= NumberSv;
+    }
+
+    Train(String Destination,int NumberTrain,double SendTime)
+    {
+        this.Destination=Destination;
+        this.NumberTrain=NumberTrain;
+        this.SendTime=SendTime;
+        this.NumberCommon=0;
+        this.NumberKoupe=0;
+        this.NumberPlz=0;
+        this.NumberSv= 0;
+    }
+
     public void setDestination(String destination) {
         Destination = destination;
     }
@@ -65,4 +87,6 @@ public class Train {
     public String getDestination() {
         return Destination;
     }
+
+
 }
