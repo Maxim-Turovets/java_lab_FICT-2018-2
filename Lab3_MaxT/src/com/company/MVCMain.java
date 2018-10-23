@@ -20,12 +20,12 @@ public class MVCMain {
             System.out.println(e.getMessage());
         }
 
-        WordProcessing model = new WordProcessing();
-        model.setText(s);
-        View view = new View();
-        WordProcessingController controller= new WordProcessingController(model,view);
-
-        controller.updateView();
+//        WordProcessing model = new WordProcessing();
+//        model.setText(s);
+//        View view = new View();
+//        WordProcessingController controller= new WordProcessingController(model,view);
+//
+//        controller.updateView();
 
 
 
