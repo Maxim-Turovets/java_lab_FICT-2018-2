@@ -9,9 +9,12 @@ public class MVCMain {
 
     public static void main(String[] args) {
 
-        int nummenu = 0;
-        System.out.println("Выберите метод обаботки - 1 вручную  2 - рандомно");
+        int nummenu = 0, count=0;
+        System.out.println("Enter number of trains");
         Scanner in = new Scanner(System.in);
+        count=in.nextInt();
+        System.out.println("Выберите метод обаботки - 1 вручную  2 - рандомно");
+
         nummenu = in.nextInt();
 
         if (nummenu == 1)
@@ -20,14 +23,14 @@ public class MVCMain {
             View view = new View();
             System.out.print("=========================================================================");
             System.out.println("=========================================================================");
-            for (int i = 0; i < 1; i++) {
+            for (int i = 0; i < count; i++) {
 
                 model.add(new Train());
              //   System.out.println(model.get(i).toString());
             }
 
             System.out.println("Trains that have common places: ");
-            for (int i = 0; i < 1; i++) {
+            for (int i = 0; i < count; i++) {
                 TrainController controller = new TrainController(model.get(i), view);
                 controller.getInfoNumber();
             }
@@ -37,7 +40,7 @@ public class MVCMain {
             String punkt = instr.nextLine();
             String time  = instr.nextLine();
 
-            for (int i = 0; i < 1; i++) {
+            for (int i = 0; i < count; i++) {
                 TrainController controller = new TrainController(model.get(i), view);
                 controller.getInfoTime(punkt, time);
             }
@@ -54,7 +57,7 @@ public class MVCMain {
             View view = new View();
             System.out.print("=========================================================================");
             System.out.println("=========================================================================");
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < count; i++) {
                 model.add(new Train(""));
                 model.get(i).randPrint();
                 System.out.println(model.get(i).toString());
@@ -64,7 +67,7 @@ public class MVCMain {
 
 
             System.out.println("Trains that have common places: ");
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < count; i++) {
                 TrainController controller = new TrainController(model.get(i), view);
                 controller.getInfoNumber();
             }
@@ -74,7 +77,7 @@ public class MVCMain {
             String punkt = instr.nextLine();
             String time  = instr.nextLine();
 
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < count; i++) {
                 TrainController controller = new TrainController(model.get(i), view);
                 controller.getInfoTime(punkt, time);
             }
