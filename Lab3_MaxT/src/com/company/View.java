@@ -1,10 +1,29 @@
 package com.company;
 
+import java.util.ArrayList;
+
 public class View {
-    public  void printText(String  str , int sum)
-    {
-    System.out.println("Text : "+str);
-    System.out.println("The sum of the numbers in the given text = " + sum);
+
+    public  void printCommon(Train obj) {
+
+        if (obj.getNumberCommon() > 0) {
+            System.out.println(obj.toString());
+        }
+    }
+
+
+    public  void printTime (Train obj, String Destin , String time ) {
+        Train o = new Train("");
+        if (obj.getDestination().equals(Destin.trim()) && obj.ConvertTime() > o.ConvertTimeObj(time)) {
+            System.out.println("Trains that go to a given place after a specified time: ");
+            System.out.println( obj.toString());
+        }
+        else {
+//            System.out.println("\n" +
+//                    "Not found Train");
+        }
+
+
     }
 
 }
