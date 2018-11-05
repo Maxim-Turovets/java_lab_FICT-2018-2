@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class TrainController {
     private  Train model;
@@ -17,11 +18,19 @@ public class TrainController {
 
 
    public void Update (){
-       Treatment ob = new Treatment();
-       ob.Filling();
-       View view = new View();
-       view.printCommon(ob.getList());
-       view.Print(ob.getList());
+       Scanner instr = new Scanner(System.in);
+       String next = "";
+
+       while (next!="n") {
+           if(next=="n")
+               break;
+           Treatment ob = new Treatment();
+           ob.Filling();
+           View view = new View();
+           view.printCommon(ob.getList());
+           view.Print(ob.getList());
+            next = instr.nextLine();
+       }
 
    }
 
