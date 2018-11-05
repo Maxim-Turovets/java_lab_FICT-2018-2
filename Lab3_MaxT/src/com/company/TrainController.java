@@ -6,37 +6,6 @@ public class TrainController {
     private  Train model;
     private  View view;
 
-//    TrainController(String Destination,int NumberTrain,String SendTime,int NumberCommon,int NumberKoupe,int NumberPlz, int NumberSv)
-//    {
-//        model.setDestination(Destination);
-//        model.setNumberTrain(NumberTrain);
-//        model.setSendTime(SendTime);
-//        model.setNumberCommon(NumberCommon);
-//        model.setNumberKoupe(NumberKoupe);
-//        model.setNumberPlz(NumberPlz);
-//        model.setNumberSv(NumberSv);
-//    }
-//
-//    TrainController(String Destination,int NumberTrain,String SendTime)
-//    {
-//        model.setDestination(Destination);
-//        model.setNumberTrain(NumberTrain);
-//        model.setSendTime(SendTime);
-//        model.setNumberCommon(0);
-//        model.setNumberKoupe(0);
-//        model.setNumberPlz(0);
-//        model.setNumberSv(0);
-//    }
-//
-//     TrainController(String Destination) {
-//        model.setDestination(Destination);
-//        model.setNumberTrain(0);
-//        model.setSendTime("");
-//        model.setNumberCommon(0);
-//        model.setNumberKoupe(0);
-//        model.setNumberPlz(0);
-//        model.setNumberSv(0);
-//    }
 
     TrainController(Train model, View view)
     {
@@ -69,5 +38,9 @@ public class TrainController {
         view.printCommon(this.model);
     }
 
+    public void print(){
+        Treatment ob = new Treatment();
+
+    }
 
 }

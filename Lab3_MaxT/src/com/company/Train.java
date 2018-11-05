@@ -1,6 +1,5 @@
 package com.company;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Train {
@@ -46,6 +45,7 @@ public class Train {
         this.NumberPlz=0;
         this.NumberSv= 0;
     }
+
     public Train() {
         Scanner in = new Scanner(System.in);
         Scanner in2 = new Scanner(System.in);
@@ -70,6 +70,8 @@ public class Train {
             System.out.println("No correct  info");
         }
     }
+
+
     public void setDestination(String destination) {
         Destination = destination;
     }
@@ -156,47 +158,49 @@ public class Train {
 
     }
 
-    public double ConvertTimeObj ( String str)
-    {
-        String [] mas  = new String[2];
-        mas=str.split(":");
-        double temp=0, temp2=0;
-        temp=Double.parseDouble(mas[0]);
-        temp2=Double.parseDouble(mas[1]);
-        return  temp*60+temp2;
-    }
-
-    public void  randPrint(){
-        ArrayList<String> randStat = new ArrayList<String>();
-        randStat.add("Bremen");
-        randStat.add("Berlin");
-        randStat.add("Kyiv");
-        randStat.add("Milan");
-        randStat.add("Olevsk");
-        randStat.add("Poltava");
-        randStat.add("Bali");
-        randStat.add("Buharest");
-        randStat.add("Moskva");
-        randStat.add("New York");
 
 
-        this.Destination=randStat.get(rand(1,9));
-        this.NumberCommon=rand(1,45);
-        this.SendTime=rand(1,12)+":"+rand(10,59);
-        this.NumberTrain=rand(1,50);
-        this.NumberKoupe=rand(1,50);
-        this.NumberPlz=rand(1,50);
-        this.NumberSv= rand(1,50);
+//    public double ConvertTimeObj ( String str)
+//    {
+//        String [] mas  = new String[2];
+//        mas=str.split(":");
+//        double temp=0, temp2=0;
+//        temp=Double.parseDouble(mas[0]);
+//        temp2=Double.parseDouble(mas[1]);
+//        return  temp*60+temp2;
+//    }
 
+//    public void  randPrint(){
+//        ArrayList<String> randStat = new ArrayList<String>();
+//        randStat.add("Bremen");
+//        randStat.add("Berlin");
+//        randStat.add("Kyiv");
+//        randStat.add("Milan");
+//        randStat.add("Olevsk");
+//        randStat.add("Poltava");
+//        randStat.add("Bali");
+//        randStat.add("Buharest");
+//        randStat.add("Moskva");
+//        randStat.add("New York");
+//
+//
+//        this.Destination=randStat.get(rand(1,9));
+//        this.NumberCommon=rand(1,45);
+//        this.SendTime=rand(1,12)+":"+rand(10,59);
+//        this.NumberTrain=rand(1,50);
+//        this.NumberKoupe=rand(1,50);
+//        this.NumberPlz=rand(1,50);
+//        this.NumberSv= rand(1,50);
+//
+//
+//    }
 
-    }
-
-    private int rand(int a,int b)
-    {
-
-        int random_number = a + (int) (Math.random() * b); // Генерация 1-го числа
-        return  random_number;
-    }
+//    private int rand(int a,int b)
+//    {
+//
+//        int random_number = a + (int) (Math.random() * b); // Генерация 1-го числа
+//        return  random_number;
+//    }
 
     @Override
     public String toString()
