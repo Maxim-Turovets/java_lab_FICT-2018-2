@@ -1,6 +1,6 @@
 package com.company;
 
-import java.util.ArrayList;
+
 import java.util.Scanner;
 
 public class TrainController {
@@ -22,14 +22,16 @@ public class TrainController {
        String next = "";
 
        while (next!="n") {
-           if(next=="n")
+           if(next.equals("n"))
                break;
            Treatment ob = new Treatment();
            ob.Filling();
            View view = new View();
            view.printCommon(ob.getList());
            view.Print(ob.getList());
+           System.out.println("Нажмите любую кнопку для продолжения  или 'n' для выхода ");
             next = instr.nextLine();
+
        }
 
    }

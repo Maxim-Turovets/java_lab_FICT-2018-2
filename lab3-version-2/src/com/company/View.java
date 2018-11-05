@@ -41,7 +41,7 @@ public class View {
 
         for(int i=0;i<list.size();i++) {
             if (list.get(i).getDestination().equals(Destin.trim()) && list.get(i).getDoubleTime() > Treatment.ConvertTimeObj(time)) {
-                System.out.println("Trains that go to a given place after a specified time: ");
+                System.out.println("Поезда, которые отправляются в определенное место после определенного времени: ");
                 System.out.println(ob.toString(list.get(i)));
             }
 

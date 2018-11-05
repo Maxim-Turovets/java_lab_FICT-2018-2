@@ -53,12 +53,19 @@ public class Treatment {
 
     public static double ConvertTimeObj (String str)
     {
-        String [] mas  = new String[2];
-        mas=str.split(":");
-        double temp=0, temp2=0;
-        temp=Double.parseDouble(mas[0]);
-        temp2=Double.parseDouble(mas[1]);
-        return  temp*60+temp2;
+        try {
+            String[] mas = new String[2];
+            mas = str.split(":");
+            double temp = 0, temp2 = 0;
+            temp = Double.parseDouble(mas[0]);
+            temp2 = Double.parseDouble(mas[1]);
+            return temp * 60 + temp2;
+        }
+        catch (Exception e)
+        {
+            System.out.println("incorrect");
+            return 0;
+        }
     }
 
     public static void  randPrint(Train obj){
