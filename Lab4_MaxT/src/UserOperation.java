@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public  class UserOperation {
 
-    public ArrayList<User>UserMass;
+    public static ArrayList<User>UserMass;
 
  public  static void BlocCard(User user){
 
@@ -36,5 +36,40 @@ public  class UserOperation {
         }
         else
         System.out.println("Не достаточно денег");
+    }
+
+    public static void  randPrint(){
+     UserMass = new ArrayList<User>();
+        ArrayList<String> randStat = new ArrayList<String>();
+        randStat.add("Michael");
+        randStat.add("Andre");
+        randStat.add("Bill");
+        randStat.add("John");
+        randStat.add("Maxim");
+        randStat.add("Nick");
+        randStat.add("Josch");
+        randStat.add("Javist");
+        randStat.add("Web Developer");
+        randStat.add("Кто-то");
+
+        for (int i=0;i<10;i++)
+        {
+            User user = new User("","");
+            user.setName(randStat.get(rand(1,9)));
+            user.getCreditCard().setBalance(rand(1,9999));
+            user.getAccount().setBalance(rand(1,9999));
+            user.getAccount().setNumber(rand(1000,9999));
+            UserMass.add(user);
+        }
+
+
+
+
+    }
+    public static int rand(int a,int b)
+    {
+
+        int random_number = a + (int) (Math.random() * b); // Генерация 1-го числа
+        return  random_number;
     }
 }

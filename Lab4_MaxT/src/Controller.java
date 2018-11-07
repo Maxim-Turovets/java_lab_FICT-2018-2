@@ -18,6 +18,11 @@ public class Controller {
 
     public  void UpdateUser()
     {
+//        UserOperation.randPrint();
+//        for (int i=0;i<10;i++)
+//        {
+//            view.UserInfo(UserOperation.UserMass.get(i));
+//        }
         if (this.operation==4)
         {
             view.UserInfo(this.user);

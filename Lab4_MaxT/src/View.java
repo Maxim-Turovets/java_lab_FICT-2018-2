@@ -17,7 +17,7 @@ public class View {
     }
 
     public void UserInfo(User user){
-        System.out.println("\nСума на счете: " + user.getAccount().getBalance()+"\nСума на карте "+ user.getCreditCard().getBalance()+ "\nИмя владельца "+user.getName());
+        System.out.println("\nСума на счете: " + user.getAccount().getBalance()+"\nСума на карте "+ user.getCreditCard().getBalance()+ "\nИмя владельца "+user.getName()+ "\nНомер счета "+user.getAccount().getNumber());
     }
 
     public double Transfer()

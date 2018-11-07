@@ -27,6 +27,15 @@ public class User extends Person {
         this.account.setBalance(9999);
         this.account.setNumber(1234);
     }
+    User (String str, String str2){
+
+
+        this.creditCard.setActive(true);
+        this.creditCard.setBalance(9999);
+
+        this.account.setBalance(9999);
+        this.account.setNumber(1234);
+    }
 
     public void setCreditCard(CreditCard creditCard) {
         this.creditCard = creditCard;
