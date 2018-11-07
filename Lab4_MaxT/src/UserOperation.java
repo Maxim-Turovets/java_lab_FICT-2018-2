@@ -6,5 +6,9 @@ public  class UserOperation {
      user.getCreditCard().setActive(false);
  }
 
- public  static  void 
+ public  static  void Transfer(User user, User two, double sum)
+ {
+     user.getAccount().setBalance(sum*(-1));
+     two.getAccount().setBalance(sum);
+ }
 }
