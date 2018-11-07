@@ -14,7 +14,7 @@ public class CreditCard {
     CreditCard ()
     {
         this.number=1111;
-        this.balance=9999;
+        this.balance=0;
         this.active = true;
     }
 
@@ -23,7 +23,7 @@ public class CreditCard {
     }
 
     public void setBalance(double balance) {
-        this.balance = balance;
+        this.balance += balance;
     }
 
     public void setActive(boolean active) {
