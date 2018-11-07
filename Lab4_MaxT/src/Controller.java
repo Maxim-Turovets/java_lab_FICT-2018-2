@@ -20,7 +20,18 @@ public class Controller {
     {
         if (this.operation==4)
         {
+            view.UserInfo(this.user);
             UserOperation.PayMent(this.user);
+            view.UserInfo(this.user);
+        }
+
+        if (this.operation==3)
+        {
+            view.UserInfo(this.user);
+            User us2 = new User("");
+
+            UserOperation.Transfer(this.user, us2,view.Transfer());
+            view.UserInfo(this.user);
         }
     }
 

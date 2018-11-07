@@ -1,6 +1,8 @@
+import java.util.ArrayList;
+
 public  class UserOperation {
 
-
+    public ArrayList<User>UserMass;
 
  public  static void BlocCard(User user){
 
@@ -19,9 +21,10 @@ public  class UserOperation {
      if(user.getAccount().getBalance()>0 && two.getAccount().getBalance()>sum) {
          user.getAccount().addBalance(sum * (-1));
          two.getAccount().addBalance(sum);
+         System.out.println("Операция успешно выполнена");
      }
      else {
-         System.out.println("Not Many");
+         System.out.println("Не достаточно средств");
      }
  }
 
@@ -31,6 +34,7 @@ public  class UserOperation {
             user.getCreditCard().setBalance(obj.getSum() * (-1));
             System.out.println("Заказ оплачен");
         }
+        else
         System.out.println("Не достаточно денег");
     }
 }
