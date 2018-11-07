@@ -32,6 +32,11 @@ public class Controller {
     public  void UpdateUser()
     {
 
+        if (this.operation==6)
+        {
+            UserOperation.BlocAdmin(view.setBlockNum());
+        }
+
         if (this.operation==5)
         {
             UserOperation.randPrint();
@@ -39,6 +44,8 @@ public class Controller {
             {
                 view.UserInfo(UserOperation.UserMass.get(i));
             }
+
+
         }
 
         if (this.operation==4)

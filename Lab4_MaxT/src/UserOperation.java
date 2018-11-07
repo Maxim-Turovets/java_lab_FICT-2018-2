@@ -85,7 +85,7 @@ public  class UserOperation {
             if (UserMass.get(i).getAccount().getNumber() == num) {
                     System.out.println(" Карта " + UserMass.get(i).getName()+"Была заблокирована");
                 }
-             
+
         }
     }
 }

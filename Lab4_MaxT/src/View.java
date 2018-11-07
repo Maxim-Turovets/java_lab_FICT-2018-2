@@ -47,4 +47,11 @@ public class View {
         return  num+4;
     }
 
+    public int setBlockNum(){
+        Scanner in = new Scanner(System.in);
+        System.out.println("Введите номер карты для блокировки ");
+        int num = in.nextInt();
+        return  num;
+    }
+
 }
