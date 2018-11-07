@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.concurrent.ExecutionException;
 
 public class Controller {
     private  View view;
@@ -78,22 +79,25 @@ public class Controller {
     }
 
     private  void Enter(){
+        try {
         String name = view.setName();
         int num =view.setAccoutnNum();
-        for (int i=0;i<11;i++)
-        {
-            if(UserOperation.UserMass.get(i).getName().equals(name))
-            {
-                if(UserOperation.UserMass.get(i).getAccount().getNumber()==num)
-                {
-                    System.out.println("Вход выполнен успешно");
-                    this.user=UserOperation.UserMass.get(i);
-                    this.operation=view.UserMenu();
+            for (int i = 0; i < 11; i++) {
+                if (UserOperation.UserMass.get(i).getName().equals(name)) {
+                    if (UserOperation.UserMass.get(i).getAccount().getNumber() == num) {
+                        System.out.println("Вход выполнен успешно");
+                        this.user = UserOperation.UserMass.get(i);
+                        this.operation = view.UserMenu();
+                    }
+
                 }
 
             }
-
         }
+       catch (Exception e)
+       {
+           System.out.println("Не правильный ввод");
+       }
     }
 
 

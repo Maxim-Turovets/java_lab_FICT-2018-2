@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="512.8333333333334" y="33.5">Account</node>
+    <node x="370.38095238095235" y="276.0">User</node>
+    <node x="395.58333333333337" y="985.0">MVCMain</node>
+    <node x="137.83333333333337" y="309.0">Order</node>
+    <node x="2.8333333333333712" y="331.5">Admin</node>
+    <node x="386.08333333333337" y="795.0">Controller</node>
+    <node x="441.16666666666663" y="498.0">View</node>
+    <node x="249.83333333333334" y="0.0">CreditCard</node>
+    <node x="191.16666666666666" y="520.0">UserOperation</node>
+    <node x="0.0" y="66.5">Person</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Admin" target="Person">
+      <point x="28.75" y="-25.5" />
+      <point x="89.08333333333337" y="256.0" />
+      <point x="90.5" y="256.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="Controller" target="UserOperation">
+      <point x="-35.0625" y="-70.0" />
+      <point x="444.52083333333337" y="755.0" />
+      <point x="306.16666666666663" y="755.0" />
+      <point x="0.0" y="91.5" />
+    </edge>
+    <edge source="View" target="User">
+      <point x="0.0" y="-113.5" />
+      <point x="529.6666666666666" y="478.0" />
+      <point x="505.13095238095235" y="478.0" />
+      <point x="19.25" y="81.0" />
+    </edge>
+    <edge source="User" target="CreditCard">
+      <point x="-66.0" y="-81.0" />
+      <point x="419.88095238095235" y="246.0" />
+      <point x="290.33333333333337" y="246.0" />
+      <point x="-81.0" y="103.0" />
+    </edge>
+    <edge source="User" target="Person">
+      <point x="-99.0" y="-81.0" />
+      <point x="386.88095238095235" y="256.0" />
+      <point x="150.83333333333334" y="256.0" />
+      <point x="60.33333333333334" y="36.5" />
+    </edge>
+    <edge source="UserOperation" target="User">
+      <point x="92.0" y="-91.5" />
+      <point x="398.16666666666663" y="478.0" />
+      <point x="466.63095238095235" y="478.0" />
+      <point x="-19.25" y="81.0" />
+    </edge>
+    <edge source="Controller" target="Admin">
+      <point x="-58.4375" y="-70.0" />
+      <point x="421.14583333333337" y="765.0" />
+      <point x="75.66666666666669" y="765.0" />
+      <point x="75.66666666666669" y="478.0" />
+      <point x="89.08333333333337" y="478.0" />
+      <point x="28.75" y="25.5" />
+    </edge>
+    <edge source="Controller" target="View">
+      <point x="35.0625" y="-70.0" />
+      <point x="514.6458333333334" y="755.0" />
+      <point x="588.6666666666666" y="755.0" />
+      <point x="59.0" y="113.5" />
+    </edge>
+    <edge source="MVCMain" target="Controller">
+      <point x="-42.0" y="-25.5" />
+      <point x="437.58333333333337" y="960.0" />
+      <point x="432.83333333333337" y="960.0" />
+      <point x="-46.75" y="70.0" />
+    </edge>
+    <edge source="UserOperation" target="Order">
+      <point x="-92.0" y="-91.5" />
+      <point x="214.16666666666666" y="478.0" />
+      <point x="182.58333333333337" y="478.0" />
+      <point x="-44.75" y="48.0" />
+    </edge>
+    <edge source="User" target="Account">
+      <point x="66.0" y="-81.0" />
+      <point x="551.8809523809523" y="246.0" />
+      <point x="614.3333333333334" y="246.0" />
+      <point x="0.0" y="69.5" />
+    </edge>
+    <edge source="Controller" target="User">
+      <point x="81.8125" y="-70.0" />
+      <point x="561.3958333333334" y="775.0" />
+      <point x="639.6666666666667" y="775.0" />
+      <point x="639.6666666666667" y="468.0" />
+      <point x="582.1309523809523" y="468.0" />
+      <point x="96.25" y="81.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="347.1111111111111" y="611.4444444444445" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

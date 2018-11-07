@@ -7,9 +7,9 @@ public class View {
         System.out.println("Кто вы?  1-Пользователь 2-Админ");
         Scanner in = new Scanner(System.in);
         int num = in.nextInt();
-        if(num==1) {
-            System.out.println("Введите свое имя ");
-        }
+//        if(num==1) {
+//            System.out.println("Введите свое имя ");
+//        }
         return  num;
 
     }
