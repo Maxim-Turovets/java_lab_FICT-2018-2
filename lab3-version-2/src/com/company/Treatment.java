@@ -64,7 +64,7 @@ public class Treatment {
         catch (Exception e)
         {
             System.out.println("incorrect");
-            return 0;
+            return 10000;
         }
     }
 
