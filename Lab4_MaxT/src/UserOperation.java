@@ -37,6 +37,7 @@ public  class UserOperation {
 
     public  static void PayMent (User user){
         Order obj = new Order();
+
         if (obj.getSum()<user.getCreditCard().getBalance()) {
             user.getCreditCard().setBalance(obj.getSum() * (-1));
             System.out.println("Заказ оплачен");

@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Controller {
     private  View view;
     private  User user;
@@ -29,51 +31,52 @@ public class Controller {
         }
     }
 
-    public  void UpdateUser()
-    {
+    public  void UpdateUser() {
+        Scanner instr = new Scanner(System.in);
+        String next = "";
 
-        if (this.operation==6)
-        {
-            UserOperation.BlocAdmin(view.setBlockNum());
-        }
+        while (next != "n") {
+            if (next.equals("n"))
+                break;
 
-        if (this.operation==5)
-        {
-            UserOperation.randPrint();
-            for (int i=0;i<10;i++)
-            {
-                view.UserInfo(UserOperation.UserMass.get(i));
+            if (this.operation == 6) {
+                UserOperation.BlocAdmin(view.setBlockNum());
             }
 
+            if (this.operation == 5) {
+                UserOperation.randPrint();
+                for (int i = 0; i < 10; i++) {
+                    view.UserInfo(UserOperation.UserMass.get(i));
+                }
 
+
+            }
+
+            if (this.operation == 4) {
+                UserOperation.PayMent(this.user);
+                view.UserInfo(this.user);
+            }
+
+            if (this.operation == 3) {
+                view.UserInfo(this.user);
+                UserOperation.Transfer(this.user, view.setNum(), view.Transfer());
+                view.UserInfo(this.user);
+            }
+
+            if (this.operation == 2) {
+                UserOperation.CancelCard(this.user);
+            }
+
+            if (this.operation == 1) {
+                UserOperation.BlocCard(this.user);
+            }
+
+            System.out.println("Нажмите любую кнопку для продолжения  или 'n' для выхода ");
+            next = instr.nextLine();
+            Or(view.RegisterUser());
         }
 
-        if (this.operation==4)
-        {
-            view.UserInfo(this.user);
-            UserOperation.PayMent(this.user);
-            view.UserInfo(this.user);
-        }
-
-        if (this.operation==3)
-        {
-            view.UserInfo(this.user);
-            UserOperation.Transfer(this.user,view.setNum(),view.Transfer());
-            view.UserInfo(this.user);
-        }
-
-        if (this.operation==2)
-        {
-         UserOperation.CancelCard(this.user);
-        }
-
-        if (this.operation==1)
-        {
-            UserOperation.BlocCard(this.user);
-        }
     }
-
-
 
 
 }
