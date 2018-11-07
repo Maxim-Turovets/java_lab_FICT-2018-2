@@ -9,6 +9,7 @@ public class Controller {
         this.user=user;
     }
     Controller (){
+
         this.view= new View();
         view.RegisterUser();
         this.user=new User();
@@ -18,11 +19,11 @@ public class Controller {
 
     public  void UpdateUser()
     {
-//        UserOperation.randPrint();
-//        for (int i=0;i<10;i++)
-//        {
-//            view.UserInfo(UserOperation.UserMass.get(i));
-//        }
+        UserOperation.randPrint();
+        for (int i=0;i<10;i++)
+        {
+            view.UserInfo(UserOperation.UserMass.get(i));
+        }
         if (this.operation==4)
         {
             view.UserInfo(this.user);
@@ -33,9 +34,9 @@ public class Controller {
         if (this.operation==3)
         {
             view.UserInfo(this.user);
-            User us2 = new User("");
+//            User us2 = new User("");
 
-            UserOperation.Transfer(this.user, us2,view.Transfer());
+            UserOperation.Transfer(this.user,view.setNum(),view.Transfer());
             view.UserInfo(this.user);
         }
     }

@@ -27,5 +27,12 @@ public class View {
         double num = in.nextDouble();
         return  num;
     }
+    public int setNum()
+    {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Введите номер счета получателя");
+        int num = in.nextInt();
+        return  num;
+    }
 
 }

@@ -16,15 +16,19 @@ public  class UserOperation {
     }
 
 
- public  static  void Transfer(User user, User two, double sum)
- {
-     if(user.getAccount().getBalance()>0 && two.getAccount().getBalance()>sum) {
-         user.getAccount().addBalance(sum * (-1));
-         two.getAccount().addBalance(sum);
-         System.out.println("Операция успешно выполнена");
-     }
-     else {
-         System.out.println("Не достаточно средств");
+ public  static  void Transfer(User user, int num, double sum) {
+     Order obj = new Order();
+     for (int i = 0; i < 10; i++) {
+         if (UserMass.get(i).getAccount().getNumber() == num) {
+             if (obj.getSum() < user.getCreditCard().getBalance())
+                 System.out.println("Сума отправлена " + UserMass.get(i).getName());
+             else {
+                 System.out.println("Не достаточно денег");
+                 break;
+             }
+         } else {
+
+         }
      }
  }
 
