@@ -16,17 +16,7 @@ public class User extends Person {
         this.account.setNumber(1234);
     }
 
-    User (String str){
-        System.out.println("Введите имя человека");
-        Scanner in= new Scanner (System.in);
-        this.setName(in.nextLine());
 
-        this.creditCard.setActive(true);
-        this.creditCard.setBalance(9999);
-
-        this.account.setBalance(9999);
-        this.account.setNumber(1234);
-    }
     User (String str, String str2){
 
 

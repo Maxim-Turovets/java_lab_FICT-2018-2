@@ -11,10 +11,10 @@ public class Order {
         this.sum = sum;
     }
 
-    Order(){
-        System.out.println("Ввежите суму платежа ");
-        Scanner in = new Scanner(System.in);
-        double suma= in.nextDouble();
-        this.sum=suma;
-    }
+//    Order(){
+//        System.out.println("Ввежите суму платежа ");
+//        Scanner in = new Scanner(System.in);
+//        double suma= in.nextDouble();
+//        this.sum=suma;
+//    }
 }

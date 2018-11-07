@@ -20,8 +20,11 @@ public  class UserOperation {
      Order obj = new Order();
      for (int i = 0; i < 10; i++) {
          if (UserMass.get(i).getAccount().getNumber() == num) {
-             if (obj.getSum() < user.getCreditCard().getBalance())
+             if (obj.getSum() < user.getCreditCard().getBalance()) {
                  System.out.println("Сума отправлена " + UserMass.get(i).getName());
+                 user.getAccount().addBalance(sum*(-1));
+                 UserMass.get(i).getAccount().addBalance(sum);
+             }
              else {
                  System.out.println("Не достаточно денег");
                  break;
@@ -72,8 +75,17 @@ public  class UserOperation {
     }
     public static int rand(int a,int b)
     {
-
         int random_number = a + (int) (Math.random() * b); // Генерация 1-го числа
         return  random_number;
+    }
+
+    public static void BlocAdmin(int num)
+    {
+        for (int i = 0; i < 10; i++) {
+            if (UserMass.get(i).getAccount().getNumber() == num) {
+                    System.out.println(" Карта " + UserMass.get(i).getName()+"Была заблокирована");
+                }
+             
+        }
     }
 }

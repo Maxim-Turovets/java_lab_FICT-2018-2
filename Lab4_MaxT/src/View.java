@@ -2,10 +2,15 @@ import java.util.Scanner;
 
 public class View {
 
-    public void RegisterUser(){
+    public int RegisterUser(){
 
-        System.out.println("Кто вы?");
-        System.out.println("Введите свое имя ");
+        System.out.println("Кто вы?  1-Пользователь 2-Админ");
+        Scanner in = new Scanner(System.in);
+        int num = in.nextInt();
+        if(num==1) {
+            System.out.println("Введите свое имя ");
+        }
+        return  num;
 
     }
 
@@ -33,6 +38,13 @@ public class View {
         System.out.println("Введите номер счета получателя");
         int num = in.nextInt();
         return  num;
+    }
+
+    public int AdminMenu(){
+        Scanner in = new Scanner(System.in);
+        System.out.println("Посмотреть список пользователей - 1    Заблокировать карту - 2");
+        int num = in.nextInt();
+        return  num+4;
     }
 
 }

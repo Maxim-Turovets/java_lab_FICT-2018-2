@@ -1,6 +1,7 @@
 public class Controller {
     private  View view;
     private  User user;
+    private  Admin admin;
     private int operation;
 
     Controller (View view, User user){
@@ -9,21 +10,37 @@ public class Controller {
         this.user=user;
     }
     Controller (){
-
         this.view= new View();
-        view.RegisterUser();
-        this.user=new User();
-        this.operation=view.UserMenu();
+        Or(view.RegisterUser());
+
     }
 
+    private void Or(int num)
+    {
+        if(num==1)
+        {
+            this.user=new User();
+            this.operation=view.UserMenu();
+        }
+        if(num==2)
+        {
+            this.admin=new Admin();
+            this.operation=view.AdminMenu();
+        }
+    }
 
     public  void UpdateUser()
     {
-        UserOperation.randPrint();
-        for (int i=0;i<10;i++)
+
+        if (this.operation==5)
         {
-            view.UserInfo(UserOperation.UserMass.get(i));
+            UserOperation.randPrint();
+            for (int i=0;i<10;i++)
+            {
+                view.UserInfo(UserOperation.UserMass.get(i));
+            }
         }
+
         if (this.operation==4)
         {
             view.UserInfo(this.user);
@@ -34,10 +51,18 @@ public class Controller {
         if (this.operation==3)
         {
             view.UserInfo(this.user);
-//            User us2 = new User("");
-
             UserOperation.Transfer(this.user,view.setNum(),view.Transfer());
             view.UserInfo(this.user);
+        }
+
+        if (this.operation==2)
+        {
+         UserOperation.CancelCard(this.user);
+        }
+
+        if (this.operation==1)
+        {
+            UserOperation.BlocCard(this.user);
         }
     }
 
