@@ -1,0 +1,1 @@
+![Image alt](https://github.com/Maxim-Turovets/java_lab_FICT-2018-2/blob/master/Lab4_MaxT/diagram.png)

@@ -156,13 +156,13 @@
               <nodes>
                 <node x="512.8333333333334" y="33.5">Account</node>
                 <node x="370.38095238095235" y="276.0">User</node>
-                <node x="395.5833333333334" y="985.0">MVCMain</node>
+                <node x="395.58333333333337" y="985.0">MVCMain</node>
                 <node x="137.83333333333337" y="309.0">Order</node>
                 <node x="2.8333333333333712" y="331.5">Admin</node>
                 <node x="386.08333333333337" y="795.0">Controller</node>
                 <node x="441.16666666666663" y="498.0">View</node>
                 <node x="249.83333333333334" y="0.0">CreditCard</node>
-                <node x="191.16666666666663" y="520.0">UserOperation</node>
+                <node x="191.16666666666666" y="520.0">UserOperation</node>
                 <node x="0.0" y="66.5">Person</node>
               </nodes>
               <notes />
@@ -174,7 +174,7 @@
                   <point x="0.0" y="36.5" />
                 </edge>
                 <edge source="Controller" target="UserOperation">
-                  <point x="-35.06250000000006" y="-70.0" />
+                  <point x="-35.0625" y="-70.0" />
                   <point x="444.52083333333337" y="755.0" />
                   <point x="306.16666666666663" y="755.0" />
                   <point x="0.0" y="91.5" />
@@ -204,28 +204,28 @@
                   <point x="-19.25" y="81.0" />
                 </edge>
                 <edge source="Controller" target="Admin">
-                  <point x="-58.43750000000006" y="-70.0" />
+                  <point x="-58.4375" y="-70.0" />
                   <point x="421.14583333333337" y="765.0" />
-                  <point x="75.66666666666663" y="765.0" />
-                  <point x="75.66666666666663" y="478.0" />
+                  <point x="75.66666666666669" y="765.0" />
+                  <point x="75.66666666666669" y="478.0" />
                   <point x="89.08333333333337" y="478.0" />
                   <point x="28.75" y="25.5" />
                 </edge>
                 <edge source="Controller" target="View">
-                  <point x="35.06249999999994" y="-70.0" />
+                  <point x="35.0625" y="-70.0" />
                   <point x="514.6458333333334" y="755.0" />
                   <point x="588.6666666666666" y="755.0" />
                   <point x="59.0" y="113.5" />
                 </edge>
                 <edge source="MVCMain" target="Controller">
-                  <point x="-42.00000000000006" y="-25.5" />
+                  <point x="-42.0" y="-25.5" />
                   <point x="437.58333333333337" y="960.0" />
                   <point x="432.83333333333337" y="960.0" />
                   <point x="-46.75" y="70.0" />
                 </edge>
                 <edge source="UserOperation" target="Order">
                   <point x="-92.0" y="-91.5" />
-                  <point x="214.16666666666663" y="478.0" />
+                  <point x="214.16666666666666" y="478.0" />
                   <point x="182.58333333333337" y="478.0" />
                   <point x="-44.75" y="48.0" />
                 </edge>
@@ -236,10 +236,10 @@
                   <point x="0.0" y="69.5" />
                 </edge>
                 <edge source="Controller" target="User">
-                  <point x="81.81249999999994" y="-70.0" />
+                  <point x="81.8125" y="-70.0" />
                   <point x="561.3958333333334" y="775.0" />
-                  <point x="639.6666666666666" y="775.0" />
-                  <point x="639.6666666666666" y="468.0" />
+                  <point x="639.6666666666667" y="775.0" />
+                  <point x="639.6666666666667" y="468.0" />
                   <point x="582.1309523809523" y="468.0" />
                   <point x="96.25" y="81.0" />
                 </edge>
@@ -318,7 +318,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="225" />
     <option name="y" value="110" />
     <option name="width" value="980" />
@@ -354,7 +354,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541625282231" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541625482564" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -398,15 +398,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541606979776</updated>
-      <workItem from="1541606983016" duration="18279000" />
+      <workItem from="1541606983016" duration="18598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18279000" />
+    <option name="totallyTimeSpent" value="18598000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -602,13 +603,13 @@
           <nodes>
             <node x="512.8333333333334" y="33.5">Account</node>
             <node x="370.38095238095235" y="276.0">User</node>
-            <node x="395.5833333333334" y="985.0">MVCMain</node>
+            <node x="395.58333333333337" y="985.0">MVCMain</node>
             <node x="137.83333333333337" y="309.0">Order</node>
             <node x="2.8333333333333712" y="331.5">Admin</node>
             <node x="386.08333333333337" y="795.0">Controller</node>
             <node x="441.16666666666663" y="498.0">View</node>
             <node x="249.83333333333334" y="0.0">CreditCard</node>
-            <node x="191.16666666666663" y="520.0">UserOperation</node>
+            <node x="191.16666666666666" y="520.0">UserOperation</node>
             <node x="0.0" y="66.5">Person</node>
           </nodes>
           <notes />
@@ -620,7 +621,7 @@
               <point x="0.0" y="36.5" />
             </edge>
             <edge source="Controller" target="UserOperation">
-              <point x="-35.06250000000006" y="-70.0" />
+              <point x="-35.0625" y="-70.0" />
               <point x="444.52083333333337" y="755.0" />
               <point x="306.16666666666663" y="755.0" />
               <point x="0.0" y="91.5" />
@@ -650,28 +651,28 @@
               <point x="-19.25" y="81.0" />
             </edge>
             <edge source="Controller" target="Admin">
-              <point x="-58.43750000000006" y="-70.0" />
+              <point x="-58.4375" y="-70.0" />
               <point x="421.14583333333337" y="765.0" />
-              <point x="75.66666666666663" y="765.0" />
-              <point x="75.66666666666663" y="478.0" />
+              <point x="75.66666666666669" y="765.0" />
+              <point x="75.66666666666669" y="478.0" />
               <point x="89.08333333333337" y="478.0" />
               <point x="28.75" y="25.5" />
             </edge>
             <edge source="Controller" target="View">
-              <point x="35.06249999999994" y="-70.0" />
+              <point x="35.0625" y="-70.0" />
               <point x="514.6458333333334" y="755.0" />
               <point x="588.6666666666666" y="755.0" />
               <point x="59.0" y="113.5" />
             </edge>
             <edge source="MVCMain" target="Controller">
-              <point x="-42.00000000000006" y="-25.5" />
+              <point x="-42.0" y="-25.5" />
               <point x="437.58333333333337" y="960.0" />
               <point x="432.83333333333337" y="960.0" />
               <point x="-46.75" y="70.0" />
             </edge>
             <edge source="UserOperation" target="Order">
               <point x="-92.0" y="-91.5" />
-              <point x="214.16666666666663" y="478.0" />
+              <point x="214.16666666666666" y="478.0" />
               <point x="182.58333333333337" y="478.0" />
               <point x="-44.75" y="48.0" />
             </edge>
@@ -682,10 +683,10 @@
               <point x="0.0" y="69.5" />
             </edge>
             <edge source="Controller" target="User">
-              <point x="81.81249999999994" y="-70.0" />
+              <point x="81.8125" y="-70.0" />
               <point x="561.3958333333334" y="775.0" />
-              <point x="639.6666666666666" y="775.0" />
-              <point x="639.6666666666666" y="468.0" />
+              <point x="639.6666666666667" y="775.0" />
+              <point x="639.6666666666667" y="468.0" />
               <point x="582.1309523809523" y="468.0" />
               <point x="96.25" y="81.0" />
             </edge>
