@@ -70,6 +70,12 @@ public  class UserOperation {
             UserMass.add(user);
         }
 
+        User user = new User("","");
+        user.setName("root");
+        user.getCreditCard().setBalance(9999);
+        user.getAccount().setBalance(9999);
+        user.getAccount().setNumber(1234);
+        UserMass.add(user);
 
 
 

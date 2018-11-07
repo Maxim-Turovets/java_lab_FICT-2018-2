@@ -54,4 +54,18 @@ public class View {
         return  num;
     }
 
+    public String setName(){
+        Scanner in = new Scanner(System.in);
+        System.out.println("Введите имя ");
+        String name = in.nextLine();
+        return  name;
+    }
+    public int setAccoutnNum()
+    {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Введите номер своего счета");
+        int num = in.nextInt();
+        return  num;
+    }
+
 }

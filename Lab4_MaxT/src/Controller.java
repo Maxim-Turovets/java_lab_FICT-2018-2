@@ -13,16 +13,16 @@ public class Controller {
     }
     Controller (){
         this.view= new View();
+        UserOperation.randPrint();
         Or(view.RegisterUser());
-
     }
 
     private void Or(int num)
     {
         if(num==1)
         {
-            this.user=new User();
-            this.operation=view.UserMenu();
+            Enter();
+            UpdateUser();
         }
         if(num==2)
         {
@@ -44,8 +44,7 @@ public class Controller {
             }
 
             if (this.operation == 5) {
-                UserOperation.randPrint();
-                for (int i = 0; i < 10; i++) {
+                for (int i = 0; i < 11; i++) {
                     view.UserInfo(UserOperation.UserMass.get(i));
                 }
 
@@ -77,6 +76,26 @@ public class Controller {
         }
 
     }
+
+    private  void Enter(){
+        String name = view.setName();
+        int num =view.setAccoutnNum();
+        for (int i=0;i<11;i++)
+        {
+            if(UserOperation.UserMass.get(i).getName().equals(name))
+            {
+                if(UserOperation.UserMass.get(i).getAccount().getNumber()==num)
+                {
+                    System.out.println("Вход выполнен успешно");
+                    this.user=UserOperation.UserMass.get(i);
+                    this.operation=view.UserMenu();
+                }
+
+            }
+
+        }
+    }
+
 
 
 }
