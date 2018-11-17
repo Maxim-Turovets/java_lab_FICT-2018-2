@@ -51,21 +51,19 @@ public class Treatment {
         return list;
     }
 
-    public static double ConvertTimeObj (String str)
+    public static double ConvertTimeObj (String str) throws TimeException
     {
-        try {
+
             String[] mas = new String[2];
             mas = str.split(":");
             double temp = 0, temp2 = 0;
-            temp = Double.parseDouble(mas[0]);
-            temp2 = Double.parseDouble(mas[1]);
-            return temp * 60 + temp2;
-        }
-        catch (Exception e)
-        {
-            System.out.println("incorrect");
-            return 10000;
-        }
+            try {
+                temp = Double.parseDouble(mas[0]);
+                temp2 = Double.parseDouble(mas[1]);
+                return temp * 60 + temp2;
+            }
+            catch (NumberFormatException)
+
     }
 
     public static void  randPrint(Train obj){
