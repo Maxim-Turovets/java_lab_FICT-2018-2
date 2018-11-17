@@ -35,14 +35,19 @@ public  class UserOperation {
  }
 
     public  static void PayMent (User user){
-        Order obj = new Order();
+     if(user.getCreditCard().getActive()==true)
+     {
+         Order obj = new Order();
 
-        if (obj.getSum()<user.getCreditCard().getBalance()) {
-            user.getCreditCard().setBalance(obj.getSum() * (-1));
-            System.out.println("Заказ оплачен");
-        }
-        else
-        System.out.println("Не достаточно денег");
+         if (obj.getSum() < user.getCreditCard().getBalance()) {
+             user.getCreditCard().setBalance(obj.getSum() * (-1));
+             System.out.println("Заказ оплачен");
+         } else
+             System.out.println("Не достаточно денег");
+     }
+     else{
+         System.out.println("Card is blocked");
+     }
     }
 
     public static void  randPrint(){
@@ -90,6 +95,7 @@ public  class UserOperation {
         for (int i = 0; i < 11; i++) {
             if (UserMass.get(i).getAccount().getNumber() == num) {
                     System.out.println("Карта пользователя " + UserMass.get(i).getName()+" Была заблокирована");
+                UserMass.get(i).getCreditCard().setActive(false);
                 }
 
         }

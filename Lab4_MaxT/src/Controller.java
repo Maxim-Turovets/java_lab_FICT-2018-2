@@ -4,6 +4,7 @@ import java.util.concurrent.ExecutionException;
 public class Controller {
     private  View view;
     private  User user;
+    private  Person person;
     private  Admin admin;
     private int operation;
 
@@ -86,6 +87,7 @@ public class Controller {
                 if (UserOperation.UserMass.get(i).getName().equals(name)) {
                     if (UserOperation.UserMass.get(i).getAccount().getNumber() == num) {
                         System.out.println("Вход выполнен успешно");
+                        this.person= UserOperation.UserMass.get(i);;
                         this.user = UserOperation.UserMass.get(i);
                         this.operation = view.UserMenu();
                     }

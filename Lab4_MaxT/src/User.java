@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class User extends Person {
 
@@ -6,9 +5,6 @@ public class User extends Person {
     private  Account account= new Account() ;
 
     User (){
-//        Scanner in= new Scanner (System.in);
-//        this.setName(in.nextLine());
-
         this.creditCard.setActive(true);
         this.creditCard.setBalance(9999);
 

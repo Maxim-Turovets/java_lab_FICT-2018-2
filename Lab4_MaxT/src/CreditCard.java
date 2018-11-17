@@ -2,7 +2,7 @@ public class CreditCard {
 
     private  int number;
     private  double balance;
-    private  boolean active;
+    private  boolean active = true;
 
     CreditCard (int number, double balance, boolean aсtive)
     {

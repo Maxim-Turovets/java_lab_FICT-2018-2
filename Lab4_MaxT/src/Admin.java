@@ -1,10 +1,16 @@
-import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Admin extends Person {
 
-//   Admin(){
-//       Scanner in = new Scanner(System.in);
-//       System.out.println("Введите логин");
-//       setName(in.nextLine());
-//   }
+    private  ArrayList<User> UserMass;
+
+    public ArrayList<User> getUserMass() {
+        return UserMass;
+    }
+
+    public void setUserMass(ArrayList<User> userMass) {
+        UserMass = userMass;
+    }
+
+
 }
