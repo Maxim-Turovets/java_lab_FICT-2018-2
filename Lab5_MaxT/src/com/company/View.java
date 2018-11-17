@@ -50,10 +50,7 @@ public class View {
             try {
                 throw new NoCorrectNameException();
             }
-            catch (NoCorrectNameException no_ex)
-            {
-                System.err.println("\n" +"Not found Train");
-            }
+            catch (NoCorrectNameException no_ex) {}
 
         }
 
@@ -66,8 +63,6 @@ public class View {
             }
 
         }
-
-     //   System.out.println("\n" +"Not found Train");
 
     }
 

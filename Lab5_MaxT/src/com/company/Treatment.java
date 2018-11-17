@@ -2,6 +2,7 @@ package com.company;
 
 import java.util.ArrayList;
 
+
 public class Treatment {
 
 
@@ -23,27 +24,11 @@ public class Treatment {
         String [] mas  = new String[2];
         mas=ob.getSendTime().split(":");
         double temp=0, temp2=0;
-        try {
+
             temp = Double.parseDouble(mas[0]);
             temp2 = Double.parseDouble(mas[1]);
-            if(temp>12||temp<1)
-            {
-                System.out.println("time not correct 1");
-                ob.setDoubleTime(0);
-            }
-            if(temp2>59||temp2<-1)
-            {
-                System.out.println("time not correct");
-                ob.setDoubleTime(0);
-            }
             ob.setDoubleTime(temp * 60 + temp2);
-        }
-        catch (Exception e)
-        {
-            System.out.println("\n" +
-                    "time not correct");
-            ob.setDoubleTime(0);
-        }
+
 
     }
 
@@ -56,6 +41,7 @@ public class Treatment {
 
             String[] mas = new String[2];
             mas = str.split(":");
+
             double temp = 0, temp2 = 0;
             try {
                 temp = Double.parseDouble(mas[0]);
