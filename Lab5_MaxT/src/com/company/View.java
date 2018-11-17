@@ -26,7 +26,7 @@ public class View {
 
 
 
-    public  void Print (ArrayList<Train>list){
+    public  void Print (ArrayList<Train>list) throws TimeException {
         System.out.print("=========================================================================");
             System.out.println("=========================================================================");
         Treatment ob= new Treatment();
@@ -37,17 +37,18 @@ public class View {
             Scanner instr = new Scanner(System.in);
             String Destin = instr.nextLine();
             String time  = instr.nextLine();
+            double localtime= Treatment.ConvertTimeObj(time);
 
 
         for(int i=0;i<list.size();i++) {
-            if (list.get(i).getDestination().equals(Destin.trim()) && list.get(i).getDoubleTime() > Treatment.ConvertTimeObj(time)) {
+            if (list.get(i).getDestination().equals(Destin.trim()) && list.get(i).getDoubleTime() > localtime) {
                 System.out.println("Поезда, которые отправляются в определенное место после определенного времени: ");
                 System.out.println(ob.toString(list.get(i)));
             }
 
         }
 
-        System.out.println("\n" +"Not found Train");
+     //   System.out.println("\n" +"Not found Train");
 
     }
 

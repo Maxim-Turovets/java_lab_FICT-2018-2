@@ -17,7 +17,7 @@ public class TrainController {
 
 
 
-   public void Update (){
+   public void Update () throws TimeException {
        Scanner instr = new Scanner(System.in);
        String next = "";
 

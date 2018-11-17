@@ -61,8 +61,18 @@ public class Treatment {
                 temp = Double.parseDouble(mas[0]);
                 temp2 = Double.parseDouble(mas[1]);
                 return temp * 60 + temp2;
+            } catch (NumberFormatException num_ex)
+            {
+                try {
+                    throw new TimeException("", num_ex);
+                }
+                catch (TimeException time_ex)
+                {
+                    return  10000;
+                }
+
             }
-            catch (NumberFormatException)
+
 
     }
 
