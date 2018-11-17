@@ -26,7 +26,7 @@ public class View {
 
 
 
-    public  void Print (ArrayList<Train>list) throws TimeException {
+    public  void Print (ArrayList<Train>list) throws TimeException, NoCorrectNameException {
         System.out.print("=========================================================================");
             System.out.println("=========================================================================");
         Treatment ob= new Treatment();
@@ -38,12 +38,31 @@ public class View {
             String Destin = instr.nextLine();
             String time  = instr.nextLine();
             double localtime= Treatment.ConvertTimeObj(time);
-
+            boolean correct = false;
 
         for(int i=0;i<list.size();i++) {
-            if (list.get(i).getDestination().equals(Destin.trim()) && list.get(i).getDoubleTime() > localtime) {
-                System.out.println("Поезда, которые отправляются в определенное место после определенного времени: ");
-                System.out.println(ob.toString(list.get(i)));
+            if (list.get(i).getDestination().equals(Destin.trim())) {
+                correct = true;
+            }
+        }
+        if(correct==false)
+        {
+            try {
+                throw new NoCorrectNameException();
+            }
+            catch (NoCorrectNameException no_ex)
+            {
+                System.err.println("\n" +"Not found Train");
+            }
+
+        }
+
+        for(int i=0;i<list.size();i++) {
+            if (list.get(i).getDestination().equals(Destin.trim()) ) {
+                if (list.get(i).getDoubleTime() > localtime) {
+                    System.out.println("Поезда, которые отправляются в определенное место после определенного времени: ");
+                    System.out.println(ob.toString(list.get(i)));
+                }
             }
 
         }

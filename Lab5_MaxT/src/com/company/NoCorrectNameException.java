@@ -2,6 +2,7 @@ package com.company;
 
 public class NoCorrectNameException extends Exception{
     public NoCorrectNameException() {
+        System.err.println("There are no such cities in the list.");
     }
 
     public NoCorrectNameException(String message) {

@@ -2,7 +2,7 @@ package com.company;
 
 public class MVCMain {
 
-    public static void main(String[] args) throws TimeException {
+    public static void main(String[] args) throws TimeException, NoCorrectNameException {
 
         Train model = new Train();
         View view = new View();
