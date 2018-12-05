@@ -1,0 +1,10 @@
+|Train_number-37 |Destination-Buharest |Send_time-3:34 |Nummber_Common-15 |Nummber_Koupe-32 |Nummber_SV-34 |Nummber_Plazcard-37
+|Train_number-34 |Destination-Buharest |Send_time-8:16 |Nummber_Common-41 |Nummber_Koupe-3 |Nummber_SV-13 |Nummber_Plazcard-37
+|Train_number-22 |Destination-Olevsk |Send_time-10:30 |Nummber_Common-31 |Nummber_Koupe-22 |Nummber_SV-21 |Nummber_Plazcard-7
+|Train_number-37 |Destination-NewYork |Send_time-1:37 |Nummber_Common-13 |Nummber_Koupe-27 |Nummber_SV-19 |Nummber_Plazcard-44
+|Train_number-18 |Destination-Buharest |Send_time-4:29 |Nummber_Common-37 |Nummber_Koupe-21 |Nummber_SV-4 |Nummber_Plazcard-12
+|Train_number-24 |Destination-NewYork |Send_time-9:27 |Nummber_Common-35 |Nummber_Koupe-46 |Nummber_SV-33 |Nummber_Plazcard-13
+|Train_number-36 |Destination-Bali |Send_time-7:19 |Nummber_Common-22 |Nummber_Koupe-34 |Nummber_SV-20 |Nummber_Plazcard-8
+|Train_number-11 |Destination-Berlin |Send_time-2:39 |Nummber_Common-35 |Nummber_Koupe-48 |Nummber_SV-50 |Nummber_Plazcard-39
+|Train_number-9 |Destination-NewYork |Send_time-10:32 |Nummber_Common-16 |Nummber_Koupe-4 |Nummber_SV-34 |Nummber_Plazcard-42
+|Train_number-45 |Destination-Berlin |Send_time-8:23 |Nummber_Common-32 |Nummber_Koupe-22 |Nummber_SV-26 |Nummber_Plazcard-31
