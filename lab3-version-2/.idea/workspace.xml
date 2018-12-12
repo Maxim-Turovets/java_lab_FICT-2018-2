@@ -118,25 +118,26 @@
     <session id="815998415">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="2358" />
+          <entry key="java" value="2361" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="2358" />
+          <entry key="JAVA" value="2361" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -163,7 +164,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/MVCMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -184,14 +185,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Treatment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#1209#1210#0" expanded="true" />
-                <element signature="e#1236#1237#0" expanded="true" />
-                <marker date="1544044275136" expanded="true" signature="263:429" ph="..." />
+                <marker date="1544106093159" expanded="true" signature="264:430" ph="..." />
               </folding>
             </state>
           </provider>
@@ -200,13 +197,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/File.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="504">
               <caret line="117" column="4" selection-start-line="117" selection-start-column="4" selection-end-line="117" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#objToString#0;class#File#0" />
                 <element signature="method#fileToString#0;class#File#0" />
-                <element signature="e#652#660#0" expanded="true" />
                 <element signature="method#stringToList#0;class#File#0" />
                 <element signature="method#objToJson#0;class#File#0" />
                 <element signature="method#jsonToObj#0;class#File#0" />
@@ -218,7 +214,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
+            <state relative-caret-position="629">
               <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
@@ -236,7 +232,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Train.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-101">
+            <state relative-caret-position="-176">
               <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding>
                 <element signature="method#Train#1;class#Train#0" />
@@ -253,8 +249,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/TrainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -308,8 +304,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -404,16 +400,17 @@
       <workItem from="1542457666354" duration="1129000" />
       <workItem from="1542869270618" duration="1033000" />
       <workItem from="1544008274800" duration="23706000" />
+      <workItem from="1544106030000" duration="63000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86924000" />
+    <option name="totallyTimeSpent" value="86987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18322147" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18590604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -502,13 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Desktop/gson-2.8.2.jar!/com/google/gson/Gson.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -516,18 +506,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Train.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/MVCMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-101">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="method#Train#1;class#Train#0" />
-            <element signature="method#Train#2;class#Train#0" />
-            <element signature="method#Train#3;class#Train#0" />
-            <element signature="e#1911#1912#0" expanded="true" />
-            <element signature="e#1952#1953#0" expanded="true" />
-            <element signature="method#getDestination#0;class#Train#0" />
-          </folding>
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -542,10 +524,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/TrainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -556,22 +545,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/MVCMain.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Train.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="-176">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="method#Train#1;class#Train#0" />
+            <element signature="method#Train#2;class#Train#0" />
+            <element signature="method#Train#3;class#Train#0" />
+            <element signature="e#1911#1912#0" expanded="true" />
+            <element signature="e#1952#1953#0" expanded="true" />
+            <element signature="method#getDestination#0;class#Train#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="504">
           <caret line="117" column="4" selection-start-line="117" selection-start-column="4" selection-end-line="117" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#objToString#0;class#File#0" />
             <element signature="method#fileToString#0;class#File#0" />
-            <element signature="e#652#660#0" expanded="true" />
             <element signature="method#stringToList#0;class#File#0" />
             <element signature="method#objToJson#0;class#File#0" />
             <element signature="method#jsonToObj#0;class#File#0" />
@@ -581,14 +577,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Treatment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#1209#1210#0" expanded="true" />
-            <element signature="e#1236#1237#0" expanded="true" />
-            <marker date="1544044275136" expanded="true" signature="263:429" ph="..." />
+            <marker date="1544106093159" expanded="true" signature="264:430" ph="..." />
           </folding>
         </state>
       </provider>

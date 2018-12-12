@@ -12,6 +12,7 @@ public class Treatment {
     {
         File hg = new File();
 
+
         // простое считывание
 //        for(int i = 0;i<count;i++)
 //        {
