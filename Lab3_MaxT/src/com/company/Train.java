@@ -1,7 +1,5 @@
 package com.company;
-
 import java.util.Scanner;
-
 public class Train {
     private  String Destination;
     private  int    NumberTrain;
