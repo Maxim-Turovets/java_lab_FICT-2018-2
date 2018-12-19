@@ -17,8 +17,8 @@ public class Treatment   {
         //stringToList(); // чтение строкового файла в лист
         //listToJson();// запись листа в json
         //jsonToList(); // чтение с json в лист
-        //serilializibleToList(); // запись бинарного кода
-        //listToSerializible(); // чтение бинарного кода
+        //serilializibleToList(); // чтение  бинарного кода
+        //listToSerializible(); // запись бинарного кода
 
     }
 
