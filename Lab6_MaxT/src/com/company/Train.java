@@ -1,8 +1,12 @@
 package com.company;
 
-import java.util.Scanner;
+import java.io.Serializable;
+import java.util.ArrayList;
 
-public class Train {
+
+public class Train implements Serializable {
+    public ArrayList<Train> list = new ArrayList();
+
     private  String Destination;
     private  int    NumberTrain;
     private  String SendTime;
@@ -58,6 +62,9 @@ public class Train {
         this.doubleTime = 0;
     }
 
+    public ArrayList<Train> getList() {
+        return list;
+    }
 
     public void setDestination(String destination) {
         Destination = destination;

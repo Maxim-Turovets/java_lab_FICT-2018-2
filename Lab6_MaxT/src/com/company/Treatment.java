@@ -1,53 +1,24 @@
 package com.company;
 
+import java.io.IOException;
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Treatment {
+public class Treatment   {
 
 
     public int count = 10;
     private  ArrayList<Train> list = new ArrayList();
 
-    public  void Filling()
-    {
-        File hg = new File();
+    public  void Filling() throws IOException, ClassNotFoundException {
 
-
-        // простое считывание
-//        for(int i = 0;i<count;i++)
-//        {
-//            list.add(new Train());
-//            randPrint(list.get(i));
-//            ConvertTime(list.get(i));
-//        }
-
-
-        //конвертировать в строку
-//                for(int i = 0;i<count;i++)
-//        {
-//           hg.objToString(list.get(i));
-//            ConvertTime(list.get(i));
-//        }
-
-
-        //конвертировать co строки
-//       list =  hg.stringToList();
-
-        //конвертировать c json
-//       list =  hg.jsonToObj();
-
-
-        // конвертировать в json
-//                        for(int i = 0;i<count;i++)
-//        {
-//        hg.objToJson(list.get(i));
-//            ConvertTime(list.get(i));
-//        }
-
-
-
-
-
+        randFilling();// рандомное заполнение системой
+        //listToStringFile(); // запись обектов в файл стрингом
+        //stringToList(); // чтение строкового файла в лист
+        //listToJson();// запись листа в json
+        //jsonToList(); // чтение с json в лист
+        //serilializibleToList(); // запись бинарного кода
+        //listToSerializible(); // чтение бинарного кода
 
     }
 
@@ -141,5 +112,56 @@ public class Treatment {
     {
         String temp = "|Train_number-"+ob.getNumberTrain()+" |Destination-"+ob.getDestination()+" |Send_time-"+ob.getSendTime()+" |Nummber_Common-"+ob.getNumberCommon()+" |Nummber_Koupe-"+ob.getNumberKoupe()+" |Nummber_SV-"+ob.getNumberSv()+" |Nummber_Plazcard-"+ob.getNumberPlz();
         return temp;
+    }
+
+    private void randFilling()
+    {
+        for(int i = 0;i<count;i++)
+        {
+            list.add(new Train());
+            randPrint(list.get(i));
+            ConvertTime(list.get(i));
+        }
+    }
+    private void listToStringFile()
+    {
+        File hg = new File();
+
+                for(int i = 0;i<count;i++)
+        {
+           hg.objToString(list.get(i));
+            ConvertTime(list.get(i));
+        }
+    }
+
+    private  void stringToList()
+    {
+        File hg = new File();
+        this.list =  hg.stringToList();
+    }
+
+    private  void listToJson ()
+    {
+        File hg = new File();
+        for(int i = 0;i<count;i++)
+        {
+            hg.objToJson(list.get(i));
+            ConvertTime(list.get(i));
+        }
+    }
+    private  void jsonToList()
+    {
+        File hg = new File();
+        list =  hg.jsonToObj();
+    }
+
+    private  void listToSerializible() throws IOException {
+        File file = new File();
+        file.serializableToFile(list);
+    }
+
+    private  void serilializibleToList() throws IOException, ClassNotFoundException {
+        File file = new File();
+        file.fileTolistSerializible();
     }
 }

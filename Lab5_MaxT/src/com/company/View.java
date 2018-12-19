@@ -1,6 +1,4 @@
 package com.company;
-
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -36,36 +34,18 @@ public class View {
 
         System.out.println("Введите пункт назначения и время после которого поезд отправляется");
             Scanner instr = new Scanner(System.in);
-        String Destin = instr.nextLine();
-        String time = instr.nextLine();
+        String Destin = "";
+        String time = "";
 
-        double localtime= Treatment.ConvertTimeObj(time);
-            boolean correct = false;
 
-        for(int i=0;i<list.size();i++) {
-            if (list.get(i).getDestination().equals(Destin.trim())) {
-                correct = true;
-            }
+        try {
+            Destin = instr.nextLine();
+            time = instr.nextLine();
         }
-        if(correct==false)
-        {
-            try {
-                throw new NoCorrectNameException();
-            }
-            catch (NoCorrectNameException no_ex) {}
-
-        }
-
-        for(int i=0;i<list.size();i++) {
-            if (list.get(i).getDestination().equals(Destin.trim()) ) {
-                if (list.get(i).getDoubleTime() > localtime) {
-                    System.out.println("Поезда, которые отправляются в определенное место после определенного времени: ");
-                    System.out.println(ob.toString(list.get(i)));
-                }
-            }
-
-        }
-
+        catch (Exception no_ex) {}
+                                                                                                                                                                                                                                              double localtime= Treatment.ConvertTimeObj(time);boolean correct = false;
+        NoCorrectValidator.Valid(Treatment.bol(list,Destin));
+        Treatment.view(list,localtime, Destin, ob);
     }
 
 }

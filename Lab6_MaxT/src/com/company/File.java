@@ -12,8 +12,6 @@ import java.util.ArrayList;
 public class File {
 
 
-
-
     public  static  int row=0;
 
     public  void objToString(Train obj)
@@ -116,54 +114,53 @@ public class File {
 
     public  ArrayList<Train> jsonToObj ()
     {
+        String line="";
+        String jsonText="";
+        Train murzik = null;
+        ArrayList<Train> k = new ArrayList<Train>();
 
-        String Destination="";
-        int    NumberTrain=0;
-        String SendTime="";
+        try (BufferedReader reader = new BufferedReader(
+                new InputStreamReader(
+                        new FileInputStream("ObjToJson.json"), StandardCharsets.UTF_8))){
 
-        int NumberCommon=0;
-        int NumberKoupe=0;
-        int NumberPlz=0;
-        int NumberSv=0;
-
-        ArrayList<Train> list = new ArrayList();
-        ArrayList <String>  temp_str = fileToString();
-
-
-        for (int i=0;i<temp_str.size();i++)
-        {
-            int s=0;
-            String[] arrSplit = temp_str.get(i).split(" ");
-            for (int j=0;j<arrSplit.length;j++)
-            {
-                String[] arrSplit2 = arrSplit[j].split("-");
-
-                if(j==0)
-                    NumberTrain=Integer.parseInt(arrSplit2[1]);
-                if(j==1)
-                    Destination=arrSplit2[1];
-                if(j==2)
-                    SendTime=arrSplit2[1];
-                if(j==3)
-                    NumberCommon=Integer.parseInt(arrSplit2[1]);
-                if(j==4)
-                    NumberKoupe=Integer.parseInt(arrSplit2[1]);
-                if(j==5)
-                    NumberSv=Integer.parseInt(arrSplit2[1]);
-                if(j==6)
-                    NumberPlz=Integer.parseInt(arrSplit2[1]);
-                if(j==6)
-                    NumberPlz=Integer.parseInt(arrSplit2[1]);
-
+            while ((line = reader.readLine()) != null) {
+                 jsonText =line+"\n";
+                GsonBuilder builder = new GsonBuilder();
+                Gson gson = builder.create();
+                murzik = gson.fromJson(jsonText, Train.class);
+                k.add(murzik);
             }
-            Train temp_obj = new Train(Destination,NumberTrain,SendTime,NumberCommon,NumberKoupe,NumberPlz, NumberSv);
-            list.add(temp_obj);
-
-
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-        return  list;
 
+        return  k;
+    }
+
+    public void serializableToFile(ArrayList<Train>list) throws IOException {
+
+        FileOutputStream fos = new FileOutputStream("temp.out");
+        ObjectOutputStream oos = new ObjectOutputStream(fos);
+
+        Train as = new Train();
+
+     for (int i=0;i<list.size(); i++)
+      {
+      Train ts = list.get(i);
+      as.list.add(ts);
+      }
+
+        oos.writeObject(as);
+        oos.flush();
+        oos.close();
 
     }
 
+    public  ArrayList<Train> fileTolistSerializible() throws IOException, ClassNotFoundException {
+        FileInputStream fis = new FileInputStream("temp.out");
+        ObjectInputStream oin = new ObjectInputStream(fis);
+
+        Train ts = (Train) oin.readObject();
+        return ts.getList();
+    }
 }

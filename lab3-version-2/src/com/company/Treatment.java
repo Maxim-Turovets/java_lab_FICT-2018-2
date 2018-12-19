@@ -10,44 +10,14 @@ public class Treatment {
 
     public  void Filling()
     {
-        File hg = new File();
 
 
-        // простое считывание
-//        for(int i = 0;i<count;i++)
-//        {
-//            list.add(new Train());
-//            randPrint(list.get(i));
-//            ConvertTime(list.get(i));
-//        }
-
-
-        //конвертировать в строку
-//                for(int i = 0;i<count;i++)
-//        {
-//           hg.objToString(list.get(i));
-//            ConvertTime(list.get(i));
-//        }
-
-
-        //конвертировать co строки
-//       list =  hg.stringToList();
-
-        //конвертировать c json
-//       list =  hg.jsonToObj();
-
-
-        // конвертировать в json
-//                        for(int i = 0;i<count;i++)
-//        {
-//        hg.objToJson(list.get(i));
-//            ConvertTime(list.get(i));
-//        }
-
-
-
-
-
+        for(int i = 0;i<count;i++)
+        {
+            list.add(new Train());
+            randPrint(list.get(i));
+            ConvertTime(list.get(i));
+        }
 
     }
 

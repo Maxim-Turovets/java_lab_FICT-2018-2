@@ -2,16 +2,14 @@ package com.company;
 
 public class TimeException extends Exception{
     public TimeException() {
-
     }
-
     public TimeException(String message) {
 
     }
 
     public TimeException(String message, Throwable cause) {
 
-        System.err.println("Incorrect data, try again\n"+"Exception name : "+ cause.toString());
+        System.err.println("(my exception)Incorrect data, try again\n");
     }
 
     public TimeException(Throwable cause) {

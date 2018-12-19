@@ -157,14 +157,43 @@
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
+    <session id="-1240568143">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.10" value="3" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1205" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1205" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/MVCMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="187">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -185,10 +214,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Treatment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="286">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
               <folding>
-                <marker date="1544106093159" expanded="true" signature="264:430" ph="..." />
+                <element signature="imports" expanded="true" />
+                <element signature="method#ConvertTime#0;class#Treatment#0" />
+                <element signature="method#ConvertTimeObj#0;class#Treatment#0" />
+                <element signature="method#randPrint#0;class#Treatment#0" />
+                <element signature="method#rand#0;class#Treatment#0" />
+                <element signature="method#toString#0;class#Treatment#0" />
+                <element signature="method#randFilling#0;class#Treatment#0" />
+                <element signature="method#listToStringFile#0;class#Treatment#0" />
+                <element signature="method#stringToList#0;class#Treatment#0" />
+                <element signature="method#listToJson#0;class#Treatment#0" />
+                <element signature="method#jsonToList#0;class#Treatment#0" />
+                <element signature="method#listToSerializible#0;class#Treatment#0" />
+                <element signature="method#&lt;unnamed&gt;#0;class#Treatment#0" />
               </folding>
             </state>
           </provider>
@@ -197,8 +238,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/File.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="117" column="4" selection-start-line="117" selection-start-column="4" selection-end-line="117" selection-end-column="4" />
+            <state relative-caret-position="335">
+              <caret line="163" column="28" selection-start-line="163" selection-start-column="28" selection-end-line="163" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#objToString#0;class#File#0" />
@@ -206,16 +247,17 @@
                 <element signature="method#stringToList#0;class#File#0" />
                 <element signature="method#objToJson#0;class#File#0" />
                 <element signature="method#jsonToObj#0;class#File#0" />
+                <element signature="e#3247#3254#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Serialization.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="68">
+              <caret line="4" column="50" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -232,9 +274,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Train.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-176">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="239">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#Train#1;class#Train#0" />
                 <element signature="method#Train#2;class#Train#0" />
                 <element signature="method#Train#3;class#Train#0" />
@@ -249,8 +292,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/TrainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="300">
+              <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -276,11 +322,12 @@
         <option value="$PROJECT_DIR$/src/com/company/WordProcessing.java" />
         <option value="$PROJECT_DIR$/src/com/company/WordProcessingController.java" />
         <option value="$PROJECT_DIR$/src/com/company/View.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Train.java" />
-        <option value="$PROJECT_DIR$/src/com/company/MVCMain.java" />
         <option value="$PROJECT_DIR$/Lab2_MaxT.iml" />
-        <option value="$PROJECT_DIR$/src/com/company/TrainController.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Serialization.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Train.java" />
         <option value="$PROJECT_DIR$/src/com/company/File.java" />
+        <option value="$PROJECT_DIR$/src/com/company/TrainController.java" />
+        <option value="$PROJECT_DIR$/src/com/company/MVCMain.java" />
         <option value="$PROJECT_DIR$/src/com/company/Treatment.java" />
       </list>
     </option>
@@ -304,29 +351,25 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="lab3-version-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab3-version-2" type="462c0819:PsiDirectoryNode" />
+              <item name="lab6_MaxT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab6_MaxT" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="lab3-version-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab3-version-2" type="462c0819:PsiDirectoryNode" />
+              <item name="lab6_MaxT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab6_MaxT" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="lab3-version-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab3-version-2" type="462c0819:PsiDirectoryNode" />
+              <item name="lab6_MaxT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab6_MaxT" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab3-version-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -340,7 +383,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544044456069" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545261116003" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/gson-2.8.2.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -401,16 +444,20 @@
       <workItem from="1542869270618" duration="1033000" />
       <workItem from="1544008274800" duration="23706000" />
       <workItem from="1544106030000" duration="63000" />
+      <workItem from="1544687240445" duration="725000" />
+      <workItem from="1545253649147" duration="97000" />
+      <workItem from="1545254796003" duration="6314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86987000" />
+    <option name="totallyTimeSpent" value="94123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18590604" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19127516" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -419,7 +466,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33617023" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33617023" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -440,7 +487,7 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18322147" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19127516" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -449,7 +496,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33617023" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33617023" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -506,10 +553,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab2_MaxT.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Serialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Train.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Train#1;class#Train#0" />
+            <element signature="method#Train#2;class#Train#0" />
+            <element signature="method#Train#3;class#Train#0" />
+            <element signature="e#1911#1912#0" expanded="true" />
+            <element signature="e#1952#1953#0" expanded="true" />
+            <element signature="method#getDestination#0;class#Train#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="163" column="28" selection-start-line="163" selection-start-column="28" selection-end-line="163" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#objToString#0;class#File#0" />
+            <element signature="method#fileToString#0;class#File#0" />
+            <element signature="method#stringToList#0;class#File#0" />
+            <element signature="method#objToJson#0;class#File#0" />
+            <element signature="method#jsonToObj#0;class#File#0" />
+            <element signature="e#3247#3254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/TrainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MVCMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="187">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -524,63 +634,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/TrainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab2_MaxT.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Train.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="method#Train#1;class#Train#0" />
-            <element signature="method#Train#2;class#Train#0" />
-            <element signature="method#Train#3;class#Train#0" />
-            <element signature="e#1911#1912#0" expanded="true" />
-            <element signature="e#1952#1953#0" expanded="true" />
-            <element signature="method#getDestination#0;class#Train#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="117" column="4" selection-start-line="117" selection-start-column="4" selection-end-line="117" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#objToString#0;class#File#0" />
-            <element signature="method#fileToString#0;class#File#0" />
-            <element signature="method#stringToList#0;class#File#0" />
-            <element signature="method#objToJson#0;class#File#0" />
-            <element signature="method#jsonToObj#0;class#File#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Treatment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="286">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding>
-            <marker date="1544106093159" expanded="true" signature="264:430" ph="..." />
+            <element signature="imports" expanded="true" />
+            <element signature="method#ConvertTime#0;class#Treatment#0" />
+            <element signature="method#ConvertTimeObj#0;class#Treatment#0" />
+            <element signature="method#randPrint#0;class#Treatment#0" />
+            <element signature="method#rand#0;class#Treatment#0" />
+            <element signature="method#toString#0;class#Treatment#0" />
+            <element signature="method#randFilling#0;class#Treatment#0" />
+            <element signature="method#listToStringFile#0;class#Treatment#0" />
+            <element signature="method#stringToList#0;class#Treatment#0" />
+            <element signature="method#listToJson#0;class#Treatment#0" />
+            <element signature="method#jsonToList#0;class#Treatment#0" />
+            <element signature="method#listToSerializible#0;class#Treatment#0" />
+            <element signature="method#&lt;unnamed&gt;#0;class#Treatment#0" />
           </folding>
         </state>
       </provider>

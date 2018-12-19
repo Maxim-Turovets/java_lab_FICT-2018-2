@@ -42,6 +42,7 @@ public class Treatment {
             String[] mas = new String[2];
             mas = str.split(":");
 
+            TimeValidator.ConvertTimeObj(str);
             double temp = 0, temp2 = 0;
             try {
                 temp = Double.parseDouble(mas[0]);
@@ -49,17 +50,8 @@ public class Treatment {
                 return temp * 60 + temp2;
             } catch (NumberFormatException num_ex)
             {
-                try {
-                    throw new TimeException("", num_ex);
-                }
-                catch (TimeException time_ex)
-                {
-                    return  10000;
-                }
-
+                return  10000;
             }
-
-
     }
 
     public static void  randPrint(Train obj){
@@ -93,7 +85,28 @@ public class Treatment {
         return  random_number;
     }
 
+    public  static  boolean bol(ArrayList<Train>list , String Destin)
+    {
+        for(int i=0;i<list.size();i++) {
+            if (list.get(i).getDestination().equals(Destin.trim())) {
+                return  true;
+            }
+        }
+        return  false;
+    }
 
+    public  static  void view(ArrayList<Train>list, double localtime , String Destin , Treatment ob)
+    {
+        for(int i=0;i<list.size();i++) {
+            if (list.get(i).getDestination().equals(Destin.trim()) ) {
+                if (list.get(i).getDoubleTime() > localtime) {
+                    System.out.println("Поезда, которые отправляются в определенное место после определенного времени: ");
+                    System.out.println(ob.toString(list.get(i)));
+                }
+            }
+
+        }
+    }
     public String toString( Train ob)
     {
         String temp = "|  Train number: "+ob.getNumberTrain()+"|  Destination: "+ob.getDestination()+"|  Send time: "+ob.getSendTime()+"|  Nummber Common: "+ob.getNumberCommon()+"|  Nummber Koupe: "+ob.getNumberKoupe()+"|  Nummber SV: "+ob.getNumberSv()+"|  Nummber Plazcard: "+ob.getNumberPlz();

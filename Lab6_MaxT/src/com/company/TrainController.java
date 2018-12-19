@@ -1,6 +1,7 @@
 package com.company;
 
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class TrainController {
@@ -17,7 +18,7 @@ public class TrainController {
 
 
 
-   public void Update (){
+   public void Update () throws IOException, ClassNotFoundException {
        Scanner instr = new Scanner(System.in);
        String next = "";
 
