@@ -12,7 +12,7 @@ public class Treatment   {
 
     public  void Filling() throws IOException, ClassNotFoundException {
 
-        randFilling();// рандомное заполнение системой
+        //randFilling();// рандомное заполнение системой
         //listToStringFile(); // запись обектов в файл стрингом
         //stringToList(); // чтение строкового файла в лист
         //listToJson();// запись листа в json
