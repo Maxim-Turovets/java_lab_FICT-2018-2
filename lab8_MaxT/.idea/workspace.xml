@@ -188,23 +188,66 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1417315084">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="iml" value="4" />
+          <entry key="java" value="464" />
+          <entry key="properties" value="40" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="IDEA_MODULE" value="4" />
+          <entry key="JAVA" value="464" />
+          <entry key="Properties" value="40" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="lck" value="1" />
+          <entry key="log" value="4" />
+          <entry key="properties" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="DTD" value="1" />
+          <entry key="Log" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Properties" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/MVCMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="289">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" selection-start-column="20" selection-end-column="20" />
+            <state relative-caret-position="51">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Print#0;class#View#0" />
@@ -213,11 +256,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Treatment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+            <state relative-caret-position="323">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#ConvertTime#0;class#Treatment#0" />
@@ -231,6 +274,7 @@
                 <element signature="method#listToJson#0;class#Treatment#0" />
                 <element signature="method#jsonToList#0;class#Treatment#0" />
                 <element signature="method#listToSerializible#0;class#Treatment#0" />
+                <element signature="method#serilializibleToList#0;class#Treatment#0" />
               </folding>
             </state>
           </provider>
@@ -239,24 +283,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/File.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="884">
+              <caret line="137" column="50" selection-start-line="137" selection-start-column="50" selection-end-line="137" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#objToString#0;class#File#0" />
                 <element signature="method#fileToString#0;class#File#0" />
                 <element signature="method#stringToList#0;class#File#0" />
+                <element signature="method#objToJson#0;class#File#0" />
+                <element signature="method#serializableToFile#0;class#File#0" />
                 <element signature="method#fileTolistSerializible#0;class#File#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab2_MaxT.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" selection-start-column="31" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -283,7 +320,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/TrainController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -312,12 +349,14 @@
         <option value="$PROJECT_DIR$/src/com/company/WordProcessing.java" />
         <option value="$PROJECT_DIR$/src/com/company/WordProcessingController.java" />
         <option value="$PROJECT_DIR$/src/com/company/View.java" />
-        <option value="$PROJECT_DIR$/Lab2_MaxT.iml" />
         <option value="$PROJECT_DIR$/src/com/company/Serialization.java" />
         <option value="$PROJECT_DIR$/src/com/company/Train.java" />
-        <option value="$PROJECT_DIR$/src/com/company/File.java" />
+        <option value="$PROJECT_DIR$/Lab2_MaxT.iml" />
+        <option value="$PROJECT_DIR$/src/com/company/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/com/company/Log/log4j.properties" />
         <option value="$PROJECT_DIR$/src/com/company/TrainController.java" />
         <option value="$PROJECT_DIR$/src/com/company/MVCMain.java" />
+        <option value="$PROJECT_DIR$/src/com/company/File.java" />
         <option value="$PROJECT_DIR$/src/com/company/Treatment.java" />
       </list>
     </option>
@@ -340,21 +379,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="lab6_MaxT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab6_MaxT" type="462c0819:PsiDirectoryNode" />
+              <item name="lab8_MaxT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab8_MaxT" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="lab6_MaxT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab6_MaxT" type="462c0819:PsiDirectoryNode" />
+              <item name="lab8_MaxT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab8_MaxT" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="lab6_MaxT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab6_MaxT" type="462c0819:PsiDirectoryNode" />
+              <item name="lab8_MaxT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab8_MaxT" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -363,8 +404,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -373,12 +412,17 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545261486549" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545665477805" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/gson-2.8.2.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.quicklists" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MaxT\Documents\GitHub\java_lab_FICT-2018-2\lab8_MaxT\src\com\company\Log" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -393,21 +437,16 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.company.MVCMain" />
       <module name="Lab2_MaxT" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="-Djava.util.logging.config.file=C:\Users\MaxT\Documents\GitHub\java_lab_FICT-2018-2\lab8_MaxT\src\com\company\Log\Properties\log4j.properties" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -439,16 +478,19 @@
       <workItem from="1545254796003" duration="6693000" />
       <workItem from="1545290080106" duration="1267000" />
       <workItem from="1545660659532" duration="133000" />
+      <workItem from="1545660851270" duration="3929000" />
+      <workItem from="1545665655676" duration="1945000" />
+      <workItem from="1545667654650" duration="7000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95902000" />
+    <option name="totallyTimeSpent" value="101783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19664429" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20469798" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -545,20 +587,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/MVCMain.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Serialization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/View.java">
+    <entry file="file://$PROJECT_DIR$/java0.log" />
+    <entry file="file://$PROJECT_DIR$/Lab2_MaxT.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Log/logFile/logFilejava0.log.lck">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Log/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/Log/logFile/logFilejava0.log">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="17">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Log/logFile/logFilejava1.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="255">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MVCMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Print#0;class#View#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Treatment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#ConvertTime#0;class#Treatment#0" />
+            <element signature="method#ConvertTimeObj#0;class#Treatment#0" />
+            <element signature="method#randPrint#0;class#Treatment#0" />
+            <element signature="method#rand#0;class#Treatment#0" />
+            <element signature="method#toString#0;class#Treatment#0" />
+            <element signature="method#randFilling#0;class#Treatment#0" />
+            <element signature="method#listToStringFile#0;class#Treatment#0" />
+            <element signature="method#stringToList#0;class#Treatment#0" />
+            <element signature="method#listToJson#0;class#Treatment#0" />
+            <element signature="method#jsonToList#0;class#Treatment#0" />
+            <element signature="method#listToSerializible#0;class#Treatment#0" />
+            <element signature="method#serilializibleToList#0;class#Treatment#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="137" column="50" selection-start-line="137" selection-start-column="50" selection-end-line="137" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#objToString#0;class#File#0" />
+            <element signature="method#fileToString#0;class#File#0" />
+            <element signature="method#stringToList#0;class#File#0" />
+            <element signature="method#objToJson#0;class#File#0" />
+            <element signature="method#serializableToFile#0;class#File#0" />
+            <element signature="method#fileTolistSerializible#0;class#File#0" />
           </folding>
         </state>
       </provider>
@@ -582,58 +692,20 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/TrainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab2_MaxT.iml">
+    <entry file="file://$PROJECT_DIR$/src/com/company/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Serialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#objToString#0;class#File#0" />
-            <element signature="method#fileToString#0;class#File#0" />
-            <element signature="method#stringToList#0;class#File#0" />
-            <element signature="method#fileTolistSerializible#0;class#File#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Treatment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#ConvertTime#0;class#Treatment#0" />
-            <element signature="method#ConvertTimeObj#0;class#Treatment#0" />
-            <element signature="method#randPrint#0;class#Treatment#0" />
-            <element signature="method#rand#0;class#Treatment#0" />
-            <element signature="method#toString#0;class#Treatment#0" />
-            <element signature="method#randFilling#0;class#Treatment#0" />
-            <element signature="method#listToStringFile#0;class#Treatment#0" />
-            <element signature="method#stringToList#0;class#Treatment#0" />
-            <element signature="method#listToJson#0;class#Treatment#0" />
-            <element signature="method#jsonToList#0;class#Treatment#0" />
-            <element signature="method#listToSerializible#0;class#Treatment#0" />
+            <element signature="method#Print#0;class#View#0" />
           </folding>
         </state>
       </provider>

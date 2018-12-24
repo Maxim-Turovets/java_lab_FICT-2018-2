@@ -3,22 +3,28 @@ package com.company;
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.logging.FileHandler;
+import java.util.logging.Handler;
+import java.util.logging.Logger;
 
 public class Treatment   {
 
+    private static final Logger logger = Logger.getLogger(Treatment.class.getName());
 
                                                                                                                                                                                       public int count = 10;
     private  ArrayList<Train> list = new ArrayList();
 
-    public  void Filling() throws IOException, ClassNotFoundException {
+    public  void Filling() throws Exception {
+
+
 
         randFilling();// рандомное заполнение системой
         listToStringFile(); // запись обектов в файл стрингом
         //stringToList(); // чтение строкового файла в лист
-        listToJson();// запись листа в json
-        //jsonToList(); // чтение с json в лист
-        //serilializibleToList(); // чтение  бинарного кода
-        listToSerializible(); // запись бинарного кода
+        //listToJson();// запись листа в json
+        jsonToList(); // чтение с json в лист
+        serilializibleToList(); // чтение  бинарного кода
+       // listToSerializible(); // запись бинарного кода
 
     }
 
@@ -114,8 +120,11 @@ public class Treatment   {
         return temp;
     }
 
-    private void randFilling()
-    {
+    private void randFilling() throws IOException {
+        Handler handler = new FileHandler();
+        logger.addHandler(handler);
+
+        logger.info("RandFilling procces complete");
         for(int i = 0;i<count;i++)
         {
             list.add(new Train());
@@ -123,25 +132,35 @@ public class Treatment   {
             ConvertTime(list.get(i));
         }
     }
-    private void listToStringFile()
-    {
-        File hg = new File();
+    private void listToStringFile() throws IOException {
 
+        Handler handler = new FileHandler();
+        logger.addHandler(handler);
+
+
+        File hg = new File();
                 for(int i = 0;i<count;i++)
         {
            hg.objToString(list.get(i));
             ConvertTime(list.get(i));
         }
+        logger.info("List to String procces complete");
     }
 
-    private  void stringToList()
-    {
+    private  void stringToList() throws IOException {
+        Handler handler = new FileHandler();
+        logger.addHandler(handler);
         File hg = new File();
         this.list =  hg.stringToList();
+        logger.info("String to List procces complete");
     }
 
-    private  void listToJson ()
-    {
+    private  void listToJson () throws IOException {
+        Handler handler = new FileHandler();
+        logger.addHandler(handler);
+
+        logger.info("List to Json procces complete");
+
         File hg = new File();
         for(int i = 0;i<count;i++)
         {
@@ -149,18 +168,29 @@ public class Treatment   {
             ConvertTime(list.get(i));
         }
     }
-    private  void jsonToList()
-    {
+    private  void jsonToList() throws IOException {
+        Handler handler = new FileHandler();
+        logger.addHandler(handler);
+
+        logger.info("Json to list procces complete");
         File hg = new File();
         list =  hg.jsonToObj();
     }
 
     private  void listToSerializible() throws IOException {
+        Handler handler = new FileHandler();
+        logger.addHandler(handler);
+
+        logger.info("List to Serualizible procces complete");
         File file = new File();
         file.serializableToFile(list);
     }
 
-    private  void serilializibleToList() throws IOException, ClassNotFoundException {
+    private  void serilializibleToList() throws Exception {
+        Handler handler = new FileHandler();
+        logger.addHandler(handler);
+
+        logger.info("Serializible to List procces complete");
         File file = new File();
         file.fileTolistSerializible();
     }

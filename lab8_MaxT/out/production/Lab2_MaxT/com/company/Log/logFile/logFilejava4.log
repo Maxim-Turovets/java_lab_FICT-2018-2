@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-12-24T16:00:50.784172200Z</date>
+  <millis>1545667250784</millis>
+  <nanos>172200</nanos>
+  <sequence>3</sequence>
+  <logger>com.company.Treatment</logger>
+  <level>INFO</level>
+  <class>com.company.Treatment</class>
+  <method>serilializibleToList</method>
+  <thread>1</thread>
+  <message>Serializible to List procces complete</message>
+</record>

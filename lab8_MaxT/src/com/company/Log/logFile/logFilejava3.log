@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-12-24T16:04:17.305695100Z</date>
+  <millis>1545667457305</millis>
+  <nanos>695100</nanos>
+  <sequence>2</sequence>
+  <logger>com.company.Treatment</logger>
+  <level>INFO</level>
+  <class>com.company.Treatment</class>
+  <method>jsonToList</method>
+  <thread>1</thread>
+  <message>Json to list procces complete</message>
+</record>
+<record>
+  <date>2018-12-24T16:04:17.313675400Z</date>
+  <millis>1545667457313</millis>
+  <nanos>675400</nanos>
+  <sequence>3</sequence>
+  <logger>com.company.Treatment</logger>
+  <level>INFO</level>
+  <class>com.company.Treatment</class>
+  <method>serilializibleToList</method>
+  <thread>1</thread>
+  <message>Serializible to List procces complete</message>
+</record>

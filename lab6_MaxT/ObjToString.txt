@@ -1,0 +1,10 @@
+|Train_number-28 |Destination-Poltava |Send_time-1:50 |Nummber_Common-9 |Nummber_Koupe-50 |Nummber_SV-28 |Nummber_Plazcard-17
+|Train_number-33 |Destination-Kyiv |Send_time-5:35 |Nummber_Common-15 |Nummber_Koupe-33 |Nummber_SV-32 |Nummber_Plazcard-12
+|Train_number-27 |Destination-Berlin |Send_time-8:50 |Nummber_Common-34 |Nummber_Koupe-50 |Nummber_SV-41 |Nummber_Plazcard-12
+|Train_number-29 |Destination-Buharest |Send_time-11:44 |Nummber_Common-5 |Nummber_Koupe-16 |Nummber_SV-45 |Nummber_Plazcard-41
+|Train_number-41 |Destination-Poltava |Send_time-12:19 |Nummber_Common-44 |Nummber_Koupe-9 |Nummber_SV-10 |Nummber_Plazcard-20
+|Train_number-23 |Destination-Moskva |Send_time-11:22 |Nummber_Common-13 |Nummber_Koupe-37 |Nummber_SV-15 |Nummber_Plazcard-12
+|Train_number-41 |Destination-Poltava |Send_time-11:15 |Nummber_Common-29 |Nummber_Koupe-37 |Nummber_SV-36 |Nummber_Plazcard-20
+|Train_number-18 |Destination-Berlin |Send_time-7:47 |Nummber_Common-7 |Nummber_Koupe-8 |Nummber_SV-20 |Nummber_Plazcard-17
+|Train_number-36 |Destination-Poltava |Send_time-7:35 |Nummber_Common-9 |Nummber_Koupe-8 |Nummber_SV-5 |Nummber_Plazcard-48
+|Train_number-25 |Destination-Buharest |Send_time-4:43 |Nummber_Common-37 |Nummber_Koupe-46 |Nummber_SV-37 |Nummber_Plazcard-15
