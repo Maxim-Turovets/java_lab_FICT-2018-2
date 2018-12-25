@@ -48,8 +48,10 @@ public class File {
                 list_string.add(line+" \n");
                 row++;
             }
-            logger.log(Level.WARNING, "File not found", new FileNotFoundException());
+
         } catch (IOException e) {
+            logger.log(Level.WARNING, "File not found", new FileNotFoundException());
+            logger.warning("File not found");
             System.err.println("File not found");
         }
 
@@ -137,7 +139,7 @@ public class File {
                 k.add(murzik);
             }
         } catch (IOException e) {
-            //e.printStackTrace();
+            logger.warning("File json not found");
             System.err.println("File json not found");
         }
 
@@ -176,11 +178,13 @@ try {
 
 
     logger.log(Level.WARNING, "File not found", new FileNotFoundException());
+    logger.warning("File not found");
     return ts.getList();
 }
 catch (Exception e)
 {
     System.err.println("File not found");
+    System.exit(0);
     return null;
 }
     }

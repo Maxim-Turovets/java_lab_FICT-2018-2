@@ -20,9 +20,9 @@ public class Treatment   {
 
         //randFilling();// рандомное заполнение системой
         //listToStringFile(); // запись обектов в файл стрингом
-        //stringToList(); // чтение строкового файла в лист
+        stringToList(); // чтение строкового файла в лист
         //listToJson();// запись листа в json
-        //jsonToList(); // чтение с json в лист
+        jsonToList(); // чтение с json в лист
         serilializibleToList(); // чтение  бинарного кода
         // listToSerializible(); // запись бинарного кода
 
