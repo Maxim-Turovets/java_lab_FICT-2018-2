@@ -47,7 +47,7 @@ public class View {
 
         }
 
-        System.out.println("\n" +"Not found Train");
+        System.err.println("\n" +"Not found Train");
 
     }
 

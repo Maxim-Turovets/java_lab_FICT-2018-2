@@ -2,46 +2,10 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2018-12-24T16:04:17.105228700Z</date>
-  <millis>1545667457105</millis>
-  <nanos>228700</nanos>
+  <date>2018-12-25T12:32:15.305594300Z</date>
+  <millis>1545741135305</millis>
+  <nanos>594300</nanos>
   <sequence>0</sequence>
-  <logger>com.company.Treatment</logger>
-  <level>INFO</level>
-  <class>com.company.Treatment</class>
-  <method>randFilling</method>
-  <thread>1</thread>
-  <message>RandFilling procces complete</message>
-</record>
-<record>
-  <date>2018-12-24T16:04:17.297716Z</date>
-  <millis>1545667457297</millis>
-  <nanos>716000</nanos>
-  <sequence>1</sequence>
-  <logger>com.company.Treatment</logger>
-  <level>INFO</level>
-  <class>com.company.Treatment</class>
-  <method>listToStringFile</method>
-  <thread>1</thread>
-  <message>List to String procces complete</message>
-</record>
-<record>
-  <date>2018-12-24T16:04:17.305695100Z</date>
-  <millis>1545667457305</millis>
-  <nanos>695100</nanos>
-  <sequence>2</sequence>
-  <logger>com.company.Treatment</logger>
-  <level>INFO</level>
-  <class>com.company.Treatment</class>
-  <method>jsonToList</method>
-  <thread>1</thread>
-  <message>Json to list procces complete</message>
-</record>
-<record>
-  <date>2018-12-24T16:04:17.313675400Z</date>
-  <millis>1545667457313</millis>
-  <nanos>675400</nanos>
-  <sequence>3</sequence>
   <logger>com.company.Treatment</logger>
   <level>INFO</level>
   <class>com.company.Treatment</class>

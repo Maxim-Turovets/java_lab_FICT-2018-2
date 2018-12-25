@@ -32,9 +32,12 @@ public class File {
         }
     }
 
-    public  ArrayList <String> fileToString()
-    {
+    public  ArrayList <String> fileToString() throws IOException {
         ArrayList <String> list_string = new ArrayList<String>();
+
+        Handler handler = new FileHandler();
+        logger.addHandler(handler);
+
 
         String line="";
         try (BufferedReader reader = new BufferedReader(
@@ -45,15 +48,15 @@ public class File {
                 list_string.add(line+" \n");
                 row++;
             }
+            logger.log(Level.WARNING, "File not found", new FileNotFoundException());
         } catch (IOException e) {
-            e.printStackTrace();
+            System.err.println("File not found");
         }
 
         return  list_string;
     }
 
-    public ArrayList<Train> stringToList()
-    {
+    public ArrayList<Train> stringToList() throws IOException {
           String Destination="";
           int    NumberTrain=0;
           String SendTime="";
