@@ -2,72 +2,39 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2018-12-25T12:46:28.516681400Z</date>
-  <millis>1545741988516</millis>
-  <nanos>681400</nanos>
-  <sequence>0</sequence>
-  <logger>com.company.File</logger>
-  <level>WARNING</level>
-  <class>com.company.File</class>
-  <method>fileToString</method>
-  <thread>1</thread>
-  <message>File not found</message>
-  <exception>
-    <message>java.io.FileNotFoundException</message>
-    <frame>
-      <class>com.company.File</class>
-      <method>fileToString</method>
-      <line>53</line>
-    </frame>
-    <frame>
-      <class>com.company.File</class>
-      <method>stringToList</method>
-      <line>72</line>
-    </frame>
-    <frame>
-      <class>com.company.Treatment</class>
-      <method>stringToList</method>
-      <line>154</line>
-    </frame>
-    <frame>
-      <class>com.company.Treatment</class>
-      <method>Filling</method>
-      <line>23</line>
-    </frame>
-    <frame>
-      <class>com.company.TrainController</class>
-      <method>Update</method>
-      <line>29</line>
-    </frame>
-    <frame>
-      <class>com.company.MVCMain</class>
-      <method>main</method>
-      <line>10</line>
-    </frame>
-  </exception>
-</record>
-<record>
-  <date>2018-12-25T12:46:28.562558200Z</date>
-  <millis>1545741988562</millis>
-  <nanos>558200</nanos>
+  <date>2018-12-26T07:30:26.522097600Z</date>
+  <millis>1545809426522</millis>
+  <nanos>97600</nanos>
   <sequence>1</sequence>
-  <logger>com.company.File</logger>
-  <level>WARNING</level>
-  <class>com.company.File</class>
-  <method>fileToString</method>
+  <logger>com.company.Treatment</logger>
+  <level>INFO</level>
+  <class>com.company.Treatment</class>
+  <method>listToStringFile</method>
   <thread>1</thread>
-  <message>File not found</message>
+  <message>List to String procces complete</message>
 </record>
 <record>
-  <date>2018-12-25T12:46:28.571534200Z</date>
-  <millis>1545741988571</millis>
-  <nanos>534200</nanos>
-  <sequence>4</sequence>
-  <logger>com.company.File</logger>
-  <level>WARNING</level>
-  <class>com.company.File</class>
-  <method>jsonToObj</method>
+  <date>2018-12-26T07:30:26.528084400Z</date>
+  <millis>1545809426528</millis>
+  <nanos>84400</nanos>
+  <sequence>2</sequence>
+  <logger>com.company.Treatment</logger>
+  <level>INFO</level>
+  <class>com.company.Treatment</class>
+  <method>listToJson</method>
   <thread>1</thread>
-  <message>File json not found</message>
+  <message>List to Json procces complete</message>
+</record>
+<record>
+  <date>2018-12-26T07:30:26.692641700Z</date>
+  <millis>1545809426692</millis>
+  <nanos>641700</nanos>
+  <sequence>3</sequence>
+  <logger>com.company.Treatment</logger>
+  <level>INFO</level>
+  <class>com.company.Treatment</class>
+  <method>listToSerializible</method>
+  <thread>1</thread>
+  <message>List to Serualizible procces complete</message>
 </record>
 </log>

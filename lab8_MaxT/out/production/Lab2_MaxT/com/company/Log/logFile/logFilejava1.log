@@ -2,21 +2,9 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2018-12-26T07:30:26.220903900Z</date>
-  <millis>1545809426220</millis>
-  <nanos>903900</nanos>
-  <sequence>0</sequence>
-  <logger>com.company.Treatment</logger>
-  <level>INFO</level>
-  <class>com.company.Treatment</class>
-  <method>randFilling</method>
-  <thread>1</thread>
-  <message>RandFilling procces complete</message>
-</record>
-<record>
-  <date>2018-12-26T07:30:26.522097600Z</date>
-  <millis>1545809426522</millis>
-  <nanos>97600</nanos>
+  <date>2018-12-26T07:29:35.417570100Z</date>
+  <millis>1545809375417</millis>
+  <nanos>570100</nanos>
   <sequence>1</sequence>
   <logger>com.company.Treatment</logger>
   <level>INFO</level>
@@ -26,9 +14,9 @@
   <message>List to String procces complete</message>
 </record>
 <record>
-  <date>2018-12-26T07:30:26.528084400Z</date>
-  <millis>1545809426528</millis>
-  <nanos>84400</nanos>
+  <date>2018-12-26T07:29:35.424553800Z</date>
+  <millis>1545809375424</millis>
+  <nanos>553800</nanos>
   <sequence>2</sequence>
   <logger>com.company.Treatment</logger>
   <level>INFO</level>
@@ -38,9 +26,9 @@
   <message>List to Json procces complete</message>
 </record>
 <record>
-  <date>2018-12-26T07:30:26.692641700Z</date>
-  <millis>1545809426692</millis>
-  <nanos>641700</nanos>
+  <date>2018-12-26T07:29:35.570676300Z</date>
+  <millis>1545809375570</millis>
+  <nanos>676300</nanos>
   <sequence>3</sequence>
   <logger>com.company.Treatment</logger>
   <level>INFO</level>

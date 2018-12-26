@@ -1,7 +1,6 @@
 package com.company;
 
 import java.io.IOException;
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.logging.FileHandler;
 import java.util.logging.Handler;
@@ -18,13 +17,13 @@ public class Treatment   {
 
 
 
-        //randFilling();// рандомное заполнение системой
-        //listToStringFile(); // запись обектов в файл стрингом
-        stringToList(); // чтение строкового файла в лист
-        //listToJson();// запись листа в json
-        jsonToList(); // чтение с json в лист
-        serilializibleToList(); // чтение  бинарного кода
-        // listToSerializible(); // запись бинарного кода
+        randFilling();// рандомное заполнение системой
+        listToStringFile(); // запись обектов в файл стрингом
+        //stringToList(); // чтение строкового файла в лист
+        listToJson();// запись листа в json
+        //jsonToList(); // чтение с json в лист
+        //serilializibleToList(); // чтение  бинарного кода
+        listToSerializible(); // запись бинарного кода
 
     }
 

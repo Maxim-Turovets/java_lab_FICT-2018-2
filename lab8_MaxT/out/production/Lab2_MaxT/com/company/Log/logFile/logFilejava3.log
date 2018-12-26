@@ -2,9 +2,9 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2018-12-26T07:30:26.692641700Z</date>
-  <millis>1545809426692</millis>
-  <nanos>641700</nanos>
+  <date>2018-12-26T07:29:35.570676300Z</date>
+  <millis>1545809375570</millis>
+  <nanos>676300</nanos>
   <sequence>3</sequence>
   <logger>com.company.Treatment</logger>
   <level>INFO</level>
